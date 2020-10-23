@@ -5,9 +5,12 @@ import Menu from "./components/Menu";
 
 function App() {
   return (
-    <div>
+    <header>
+      <div>
       <Menu />
     </div>
+    </header>
+    
   );
 }
 
