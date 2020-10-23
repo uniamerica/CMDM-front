@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Menu from "./components/Menu";
+import Footer from './components/Footer';
 
 function App() {
   return (
     <header>
       <div>
       <Menu />
+      <Footer />
     </div>
     </header>
     
