@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Menu from "./components/Menu";
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <Menu />
+      <Footer />
     </div>
   );
 }
