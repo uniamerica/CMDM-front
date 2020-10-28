@@ -1,18 +1,16 @@
-import React from 'react';
-import './App.css';
-import Menu from "./components/Menu";
-import Footer from './components/Footer';
+import React, { Component } from 'react'
+import './styles.css'; 
+import header from './components/Header';
 
-function App() {
-  return (
-    <header>
-      <div>
-      <Menu />
-      <Footer />
-    </div>
-    </header>
-    
-  );
+
+class App extends Component{
+  render () {
+    return (
+      <div className="App">
+        <header>JSHunt</header>
+      </div>
+    );
+  }
 }
 
 export default App;
