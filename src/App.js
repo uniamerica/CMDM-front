@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import Menu from "./components/Menu";
-import Footer from './components/Footer';
+import Nav from "./components/Nav.jsx";
+import Footer from './components/Footer.jsx';
+import Social from './pages/Social.jsx'
 
 function App() {
   return (
-    <header>
-      <div>
-      <Menu />
-      <Footer />
+    <div>
+      <Nav />
     </div>
-    </header>
+
+   
     
   );
-}
+} 
 
 export default App;
