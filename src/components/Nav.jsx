@@ -9,22 +9,22 @@ function Nav() {
     <nav>
         <ul>
             <li className="active-link">
-                <a href="#">Home</a>
+                <a href="/">Home</a>
             </li>
             <li>
-                <a href="#">Relatos</a>
+                <a href="/">Relatos</a>
             </li>
             <li>
-                <a href="#">Prucurar Ajuda</a>
+                <a href="/">Prucurar Ajuda</a>
             </li>
             <li>
-                <a href="#">Contato</a>
+                <a href="/">Contato</a>
             </li>
             <li>
-                <a href="#">O que é violência doméstica?</a>
+                <a href="/">O que é violência doméstica?</a>
             </li>
             <li>
-                <a href="#">Social</a>
+                <a href="/">Social</a>
             </li>
         </ul>
     </nav>
