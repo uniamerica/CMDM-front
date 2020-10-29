@@ -4,57 +4,57 @@ import React from 'react';
 
 function Social() {
   return (
-<div class="col-lg-10">
-<div class="container">
-    <div class="bubbleWrapper">
-        <div class="inlineContainer">
-           <img src="img/pessoa1.jpg" alt="Icone/Foto"class="rounded-circle" width="50px" height="50px"></img>
-            <div class="otherBubble other">
+<div>
+<div>
+    <div>
+        <div>
+           <img src="../img/img1.jpg" alt="Icone/Foto"class="rounded-circle" width="50px" height="50px"></img>
+            <div>
                mensagem mensagem mensagem
             </div>
-        </div><span class="other">08:41</span>
+        </div><span>08:41</span>
     </div>
-    <div class="bubbleWrapper">
-        <div class="inlineContainer own">
-            <img src="img/pessoa2.jpg" alt="Icone/Foto" class="rounded-circle" width="70px"height="50px"></img>
-            <div class="ownBubble own">
+    <div>
+        <div>
+            <img src="../img/pessoa2.jpg" alt="Icone/Foto"  width="70px"height="50px"></img>
+            <div>
              mensagem mensagem mensagem
             </div>
-        </div><span class="own">08:55</span>
+        </div><span>08:55</span>
     </div>
-    <div class="bubbleWrapper">
-        <div class="inlineContainer">
-           <img src="img/pessoa1.jpg" alt="Icone/Foto"class="rounded-circle" width="70px" height="50px"></img>
-            <div class="otherBubble other">
+    <div>
+        <div>
+           <img src="../img/pessoa1.jpg" alt="Icone/Foto"class="rounded-circle" width="70px" height="50px"></img>
+            <div>
              mensagem mensagem mensagem
             </div>
         </div>
-    </div><span class="other">10:13</span>
-    <div class="bubbleWrapper">
-        <div class="inlineContainer own">
-           <img src="img/pessoa2.jpg" alt="Icone/Foto"class="rounded-circle" width="70px" height="50px"></img>
-            <div class="ownBubble own">
+    </div><span>10:13</span>
+    <div>
+        <div>
+           <img src="../img/pessoa2.jpg" alt="Icone/Foto"class="rounded-circle" width="70px" height="50px"></img>
+            <div>
              mensagem mensagem mensagem
            
             </div>
-        </div><span class="own">11:07</span>
+        </div><span>11:07</span>
     </div>
-    <div class="bubbleWrapper">
-        <div class="inlineContainer">
-           <img src="img/pessoa1.jpg"  alt="Iconea/Foto" class="rounded-circle" width="70px" height="50px"></img>
-            <div class="otherBubble other">
+    <div>
+        <div>
+           <img src="../img/pessoa1.jpg"  alt="Iconea/Foto" width="70px" height="50px"></img>
+            <div>
              mensagem mensagem mensagem
                 
             </div>
-        </div><span class="other">11:11</span>
+        </div><span>11:11</span>
         <br></br>
     </div>
 </div>
-<div class="col-lg-12">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Enviar mensagem"></input>
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Enviar</button>
+<div>
+    <div>
+      <input type="text" placeholder="Enviar mensagem"></input>
+      <span>
+        <button type="button">Enviar</button>
       </span>
     </div>
   </div>
