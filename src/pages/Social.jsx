@@ -5,6 +5,7 @@ import React from 'react';
 function Social() {
   return (
 <div>
+<div>
     <div>
         <div>
            <img src="../img/img1.jpg" alt="Icone/Foto"class="rounded-circle" width="50px" height="50px"></img>
@@ -19,6 +20,7 @@ function Social() {
             <div>
              mensagem mensagem mensagem
             </div>
+        </div><span>08:55</span>
     </div>
     <div>
         <div>
@@ -55,7 +57,7 @@ function Social() {
         <button type="button">Enviar</button>
       </span>
     </div>
-  </div>
+</div>
 </div>
 );
 }

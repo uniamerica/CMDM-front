@@ -1,10 +1,10 @@
 import React from 'react'; 
-import '../styles/Menu.css';
 
 function Footer(){
     return(
         <div>
-            <h1>Footer</h1>
+            <h1>COMBATE A VIOLÊNCIA DOMÉSTICA</h1>
+            
         </div>
     );
 }
