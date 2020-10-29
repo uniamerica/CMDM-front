@@ -1,5 +1,5 @@
 ul{
-    width: 600px;
+    width: 700px;
     display: flex;
     justify-content: space-between;
     margin-right: 2cm;
@@ -7,10 +7,12 @@ ul{
 li{
     list-style-type: none;
 }
-li a{
-    color: grey;
+.active-link button{
+    color: black;
 }
-.active-link a{
-    color: #3d2963;
+button{
+    color: grey;
+    background: none;
+    border: none
 }
 
