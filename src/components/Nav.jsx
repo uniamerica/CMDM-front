@@ -19,7 +19,7 @@ function Nav() {
                     <a href="#">Relatos</a>
                 </li>
                 <li>
-                    <a href="#">Prucurar Ajuda</a>
+                    <a href="#">Procurar Ajuda</a>
                 </li>
                 <li>
                     <a href="#">Contato</a>

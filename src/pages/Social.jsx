@@ -20,11 +20,11 @@ function Social() {
             <div>
              mensagem mensagem mensagem
             </div>
-        </div><span">08:55</span>
+        </div><span>08:55</span>
     </div>
     <div>
         <div>
-           <img src="../img/pessoa1.jpg" alt="Icone/Foto"class="rounded-circle" width="70px" height="50px"></img>
+           <img src="../img/pessoa1.jpg" alt="Icone/Foto" width="70px" height="50px"></img>
             <div>
              mensagem mensagem mensagem
             </div>
