@@ -21,9 +21,6 @@ function Nav() {
                 <button href="#">Contato</button>
             </li>
             <li>
-                <button href="#">O que é violência doméstica?</button>
-            </li>
-            <li>
                 <button href="#">Social</button>
             </li>
         </ul>

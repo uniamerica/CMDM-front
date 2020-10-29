@@ -1,5 +1,5 @@
 ul{
-    width: 700px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
     margin-right: 2cm;
@@ -10,7 +10,7 @@ li{
 .active-link button{
     color: black;
 }
-button{
+li button{
     color: grey;
     background: none;
     border: none
