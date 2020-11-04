@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Nav.css';
+import '../components/Nav.css'
 
 
 
@@ -9,22 +9,19 @@ function Nav() {
     <nav>
         <ul>
             <li className="active-link">
-                <a href="/">Home</a>
+                <button href="#">Home</button>
             </li>
             <li>
-                <a href="/">Relatos</a>
+                <button href="#">Relatos</button>
             </li>
             <li>
-                <a href="/">Prucurar Ajuda</a>
+                <button href="#">Procurar Ajuda</button>
             </li>
             <li>
-                <a href="/">Contato</a>
+                <button href="#">Contato</button>
             </li>
             <li>
-                <a href="/">O que é violência doméstica?</a>
-            </li>
-            <li>
-                <a href="/">Social</a>
+                <button href="#">Social</button>
             </li>
         </ul>
     </nav>

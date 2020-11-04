@@ -1,0 +1,18 @@
+ul{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2cm;
+}
+li{
+    list-style-type: none;
+}
+.active-link button{
+    color: black;
+}
+li button{
+    color: grey;
+    background: none;
+    border: none
+}
+

@@ -1,0 +1,43 @@
+h5 {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(237, 219, 255);
+    font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 10px;
+    color: rgb(83, 43, 122);
+
+}
+
+p{ 
+    display: flex;
+    flex-direction: row;
+    color: rgb(227, 219, 255);
+    font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(83, 43, 122);
+}
+
+
+
+.container{
+    padding: 20px; 
+}
+
+.container2{
+    padding: 20px;
+}
+
+
+
+
+
