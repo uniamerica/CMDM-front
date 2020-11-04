@@ -1,9 +1,13 @@
 import React from 'react'
-import Img_home from '../components/Home/Img_home'
+import ImgHome from '../components/Home/ImgHome'
+import ViolenceTips from '../components/Home/ViolenceTips'
 
 function Home(){
     return(
-        <Img_home />
+        <div>
+            <ImgHome />
+            <ViolenceTips texto="QUAIS OS TIPOS DE VIOLÊNCIA DOMÉSTICA?"/>
+        </div>
     )
 }
 

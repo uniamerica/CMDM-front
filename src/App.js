@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header/Header.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Social from './pages/Social.jsx'
-import Home from './components/Home/Img_home.jsx'
+import Home from '../src/pages/Home'
 
 
 
@@ -13,8 +13,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Social />
-      <Footer />
+      <Home/>
     </div>
   );
 } 
