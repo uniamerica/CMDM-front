@@ -1,0 +1,7 @@
+.texto {
+    color: rgb(61, 23, 97);
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
