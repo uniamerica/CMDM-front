@@ -1,8 +1,8 @@
 import React from 'react';
-import '../Home/Img_home.css';
+import '../Home/ImgHome.css';
 
 
-function Img_home(){
+function ImgHome(){
     return(
         <div className="home_img">
             <img src={require("../../img/img1.jpg")} alt="Home page imagem"></img>
@@ -14,4 +14,4 @@ function Img_home(){
     );
 }
 
-export default Img_home;
+export default ImgHome;

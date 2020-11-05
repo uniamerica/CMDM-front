@@ -5,8 +5,7 @@ import img2 from '../img/pessoa2.jpg'
 
 
 function Social() {
-return (
- 
+return ( 
     <div className="box">
       <div className="BlocoMensagem">
         <div className="mensagemAlinhada">
@@ -46,13 +45,12 @@ return (
       <br />
       <div className ="enviar">
         <textarea placeholder="Enviar Mensagem..." />
-      </div>
-      <div className="box">
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar"/> 
       </div>
     </div>
    
   );
   }
+
 
   export default Social;
