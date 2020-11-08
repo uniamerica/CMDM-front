@@ -3,7 +3,7 @@
         "titulo": "Combate a violência doméstica",
         
         "header": {
-            "logo": "Juntos contra a violência doméstica" ,
+            "logo": "Juntos contra a violência doméstica",
             "nav_bar": [
                 "Home",
                 "Relatos",
@@ -20,5 +20,15 @@
             
         }
     
+    }
+
+}
+{
+    "Social":{
+        "img1":"img1.jpeg",
+        "img2":"img2.jpeg",
+        "mensagem":"mensagem mensagem mensagem", 
+        "textarea":"enviar mensagem",
+        "botao":"enviar"
     }
 }

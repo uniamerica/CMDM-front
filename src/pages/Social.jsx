@@ -1,65 +1,56 @@
 import React from 'react';
-
+import '../styles/Social.css'
+import img1 from '../img/pessoa1.jpg'
+import img2 from '../img/pessoa2.jpg'
 
 
 function Social() {
-  return (
-<div>
-<div>
-    <div>
-        <div>
-           <img src="../img/img1.jpg" alt="Icone/Foto"class="rounded-circle" width="50px" height="50px"></img>
-            <div>
-               mensagem mensagem mensagem
-            </div>
-        </div><span>08:41</span>
-    </div>
-    <div>
-        <div>
-            <img src="../img/pessoa2.jpg" alt="Icone/Foto"  width="70px"height="50px"></img>
-            <div>
-             mensagem mensagem mensagem
-            </div>
-        </div><span>08:55</span>
-    </div>
-    <div>
-        <div>
-           <img src="../img/pessoa1.jpg" alt="Icone/Foto"class="rounded-circle" width="70px" height="50px"></img>
-            <div>
-             mensagem mensagem mensagem
-            </div>
+return ( 
+    <div className="box">
+      <div className="BlocoMensagem">
+        <div className="mensagemAlinhada">
+          <img src={img1} alt="Icone/Foto" className="rounded-circle" width="50px" height="50px"></img>
+            <div className="mensagemRecebida rec">mensagem mensagem mensagem</div>
         </div>
-    </div><span>10:13</span>
-    <div>
-        <div>
-           <img src="../img/pessoa2.jpg" alt="Icone/Foto"class="rounded-circle" width="70px" height="50px"></img>
-            <div>
-             mensagem mensagem mensagem
-           
-            </div>
-        </div><span>11:07</span>
+        <span className="rec">08:41</span>
+      </div>
+       <div className="BlocoMensagem">
+          <div className="mensagemAlinhada rev">
+            <img src={img2} alt="Icone/Foto" className="rounded-circle" width="70px"height="50px"></img>
+            <div className ="mensagemEnviada rev">mensagem mensagem mensagem</div>
+          </div>
+          <span className ="rev">08:55</span>
+      </div>
+      <div className="BlocoMensagem">
+        <div className="mensagemAlinhada">
+          <img src={img1} alt="Icone/Foto" width="70px" className ="rouded-circle" height="50px"></img>
+          <div className="mensagemRecebida">mensagem mensagem mensagem</div>
+        </div>
+        <span className="rec">10:13</span>
+      </div>
+      <div className="BlocoMensagem">
+        <div className="mensagemAlinhada rev">
+          <img src={img2} alt="Icone/Foto"class="rounded-circle" width="70px" height="50px"></img>
+          <div className="mensagemEnviada rec">mensagem mensagem mensagem</div>
+        </div>
+        <span className="rev">11:07</span>
+      </div>
+      <div className="BlocoMensagem">
+        <div className="mensagemAlinhada">
+          <img src={img1}  alt="Iconea/Foto" className="rounded-circle"width="70px" height="50px"></img>
+          <div className="mensagemRecebida rec">mensagem mensagem mensagem</div>
+        </div>
+          <span className="rec">11:11</span>
+      </div>
+      <br />
+      <div className ="enviar">
+        <textarea placeholder="Enviar Mensagem..." />
+        <input type="submit" value="Enviar"/> 
+      </div>
     </div>
-    <div>
-        <div>
-           <img src="../img/pessoa1.jpg"  alt="Iconea/Foto" width="70px" height="50px"></img>
-            <div>
-             mensagem mensagem mensagem
-                
-            </div>
-        </div><span>11:11</span>
-        <br></br>
-    </div>
-</div>
-<div>
-    <div>
-      <input type="text" placeholder="Enviar mensagem"></input>
-      <span>
-        <button type="button">Enviar</button>
-      </span>
-    </div>
-  </div>
-</div>
-);
-}
+   
+  );
+  }
 
-export default Social;
+
+  export default Social;

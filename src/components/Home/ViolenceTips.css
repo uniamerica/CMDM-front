@@ -1,6 +1,7 @@
-.title h1{
-    color: #3d2963;
-    text-align: center;
-    margin-top: 2cm;
-    font-family: Arial, Helvetica, sans-serif;
+.texto {
+    color: rgb(61, 23, 97);
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }

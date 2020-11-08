@@ -1,9 +1,6 @@
 import React from 'react';
 import '../components/Nav.css'
 
-
-
-
 function Nav() {
   return (
     <nav>
