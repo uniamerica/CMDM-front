@@ -4,6 +4,7 @@ import './Footer.css';
 function Footer(){
     return(
         <div className="footer">
+    
            <div className= "container">
                   <h5>COMO PROCURAR AJUDA?</h5>
                   <p>De acordo com a Lei Maria da Penha, violência doméstica é qualquer ação ou omissão baseada no <br/>
