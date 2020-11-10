@@ -50,3 +50,25 @@ p{
     display: flex;
     justify-content: space-around;
 }
+
+section{
+    margin: 10px;
+    width: 10px;
+    height: 15px;
+}
+.rede{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-left: 10px;
+    transition: all 0.4s ease-out;
+}
+.rede#facebook{
+    background-color: rgba(62, 39, 83, 0.966);
+}
+.rede#twitter{
+    background-color: rgba(62, 39, 83, 0.966);
+}
+.rede#instagram{
+    background-color: rgba(62, 39, 83, 0.966);
+}
