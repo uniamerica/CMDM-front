@@ -6,12 +6,12 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 10px;
   padding: 0 10px;
+  width: 100%;
   display: flex;
 }
 /*parte inferior*/
 h5 {
     display: flex;
-  
     color: rgb(237, 219, 255);
     font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -25,7 +25,7 @@ p{
 
 .footer {
     display: flex;
-    
+    flex-direction: column;
     background-color: rgba(47, 24, 77, 0.966);
 }
 
@@ -42,4 +42,11 @@ p{
     font-size: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+    text-align: center;
+    padding: 1cm;
+}
+
+.containers{
+    display: flex;
+    justify-content: space-around;
 }

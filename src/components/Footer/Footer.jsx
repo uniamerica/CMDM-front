@@ -8,6 +8,7 @@ function Footer(){
             <div className="redes">
                 <p2><strong>Conecte-se conosco em nossas redes sociais!</strong></p2>
             </div>
+            <div className="containers">
             <div className= "container">
                   <h5>COMO PROCURAR AJUDA?</h5>
                   <p>De acordo com a Lei Maria da Penha, violência doméstica é qualquer ação ou omissão baseada no <br/>
@@ -31,6 +32,7 @@ function Footer(){
                 <p><strong>CRAS LESTE </strong> (45) 3901-3273</p>
                 <p><strong>CRAS OESTE</strong>  (45) 3527-7206</p>
                 <p><strong>CRAS SUL</strong>(45) 3901-3260</p>
+             </div>
                 
             </div>
             <div className="copy">
