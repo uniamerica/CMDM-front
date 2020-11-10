@@ -3,9 +3,12 @@ import './Footer.css';
 
 function Footer(){
     return(
+     
         <div className="footer">
-    
-           <div className= "container">
+            <div className="redes">
+                <p2><strong>Conecte-se conosco em nossas redes sociais!</strong></p2>
+            </div>
+            <div className= "container">
                   <h5>COMO PROCURAR AJUDA?</h5>
                   <p>De acordo com a Lei Maria da Penha, violência doméstica é qualquer ação ou omissão baseada no <br/>
                      gênero mulher, que lhe cause algum dano físico, moral ou patrimonial, sofrimento sexual ou morte.</p>
@@ -29,6 +32,9 @@ function Footer(){
                 <p><strong>CRAS OESTE</strong>  (45) 3527-7206</p>
                 <p><strong>CRAS SUL</strong>(45) 3901-3260</p>
                 
+            </div>
+            <div className="copy">
+               <p3>© 2020 Copyright</p3> 
             </div>
             
         </div>
