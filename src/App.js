@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Ajuda />
+      <Home />
       <Footer />
     </div>
   );
