@@ -11,7 +11,7 @@ function Animacao (){
                 <div className="item"><img src={require("../../img/img3.jpg")}></img></div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Animacao;
