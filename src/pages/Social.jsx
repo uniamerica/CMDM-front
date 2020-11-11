@@ -1,11 +1,14 @@
 import React from 'react';
 import '../styles/Social.css'
+import Header from '../components/Header/Header.jsx'
 import img1 from '../img/pessoa1.jpg'
 import img2 from '../img/pessoa2.jpg'
 
 
 function Social() {
 return ( 
+  <div>
+    <Header/>
     <div className="box">
       <div className="BlocoMensagem">
         <div className="mensagemAlinhada">
@@ -48,6 +51,7 @@ return (
         <input type="submit" value="Enviar"/> 
       </div>
     </div>
+  </div>
    
   );
   }

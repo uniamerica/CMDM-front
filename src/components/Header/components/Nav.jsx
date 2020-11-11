@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../components/Nav.css'
 
 function Nav() {
@@ -6,19 +7,19 @@ function Nav() {
     <nav>
         <ul>
             <li className="active-link">
-                <button href="#">Home</button>
+                <Link to="/Home">Home</Link>
             </li>
             <li>
-                <button href="#">Relatos</button>
+                <Link to="/Relatos">Relatos</Link>
             </li>
             <li>
-                <button href="#">Procurar Ajuda</button>
+                <Link to="/Ajuda">Ajuda</Link>
             </li>
             <li>
-                <button href="#">Contato</button>
+                <Link to="/Contato">Contato</Link>
             </li>
             <li>
-                <button href="#">Social</button>
+                <Link to="/Social">Social</Link>
             </li>
         </ul>
     </nav>
