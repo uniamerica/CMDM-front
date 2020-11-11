@@ -3,8 +3,8 @@
   background-color: rgb(134, 96, 224);
   color: rgb(43, 10, 48);  
   font-size: 12px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
   padding: 0 10px;
   width: 100%;
   display: flex;
@@ -64,11 +64,20 @@ section{
     transition: all 0.4s ease-out;
 }
 .rede#facebook{
+    width: 1px;
+    height: 1px;
+    padding-bottom: 2cm;
     background-color: rgba(62, 39, 83, 0.966);
 }
 .rede#twitter{
+    width: 1px;
+    height: 1px;
+    padding-bottom: 2cm;
     background-color: rgba(62, 39, 83, 0.966);
 }
 .rede#instagram{
+    width: 1px;
+    height: 1px;
+    padding-bottom: 2cm;
     background-color: rgba(62, 39, 83, 0.966);
 }

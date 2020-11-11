@@ -26,10 +26,8 @@ function Ajuda(){
                 <h2><strong>Em casos de emergência,  ligue para a polícia DISQUE 190.</strong></h2>
                 <h2><strong>Para entrar em contato com o serviço de informações e denúncia da Central de Atendimento a Mulher,
                     DISQUE 180.</strong></h2>
-                <h2><strong>Para contatar o que se pode dizer um “pronto socorro” dos direitos humanos, 
-                    que atentem casos de violação dos mesmos, DISQUE 100</strong></h2>
-               
-
+                <h2><strong>Para contatar “pronto socorro” dos direitos humanos, 
+                    que atendem casos de violação dos mesmos, DISQUE 100</strong></h2>
             
         </div>
     );
