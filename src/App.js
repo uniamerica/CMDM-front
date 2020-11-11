@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Social />
+      <Home />
       <Footer />
     </div>
   );
