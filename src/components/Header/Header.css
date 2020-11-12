@@ -1,5 +1,6 @@
 .mainheader{
     background: white;
+    width: 100vw;
     height: 70px;
     display: flex;
     justify-content: space-between;

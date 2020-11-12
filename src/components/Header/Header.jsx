@@ -11,7 +11,6 @@ function Header() {
         <Logo/>
         <Nav/>
     </div>
-
   );
 }
 
