@@ -4,8 +4,8 @@
   color: rgb(43, 10, 48);  
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 20px;
-  padding: 0 10px;
+  margin: 0px;
+  padding: 20px;                           
   width: 100%;
   display: flex;
 }
@@ -22,19 +22,27 @@ p{
     font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 12px;
 }
-
+/*footer*/
 .footer {
     display: flex;
     flex-direction: column;
     background-color: rgba(47, 24, 77, 0.966);
 }
-
+/*containers*/
 .container{
-    padding: 20px;     
+    padding: 20px;  
+    margin: 0px;   
 }
 
 .container2{
     padding: 20px;
+    margin: 0px;
+}
+
+.containers{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
 }
 
 .copy{ 
@@ -45,12 +53,7 @@ p{
     text-align: center;
     padding: 1cm;
 }
-
-.containers{
-    display: flex;
-    justify-content: space-around;
-}
-
+/*redes*/
 section{
     margin: 10px;
     width: 10px;
