@@ -30,6 +30,8 @@ p{
 }
 /*containers*/
 .container{
+    display: flex;
+    justify-content: flex-end;
     padding: 20px;  
     margin: 0px;   
 }
