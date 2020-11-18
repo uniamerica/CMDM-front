@@ -8,7 +8,7 @@ function Home(){
     return(
         <div>
           <Header/>
-          <Animacao/>
+          <ImgHome/>
           <Footer/>
         </div>
     );

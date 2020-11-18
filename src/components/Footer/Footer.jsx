@@ -8,16 +8,8 @@ function Footer(){
             <div className="redes">
                 <p2><strong>Conecte-se conosco em nossas redes sociais!</strong></p2>
             </div>
-            <section>
-                <div className="rede" id="facebook">
-                <img src={require("../../img/face.jpg")}></img>
-                </div>
-                <div className="rede" id="twitter">
-                <img src={require("../../img/insta.png")}></img>
-                </div>
-                <div className="rede" id="instagram">
-                <img src={require("../../img/twitter.png")}></img>
-                </div>
+            <section className>
+                
             </section>
             <div className="containers">
             <div className= "container">
