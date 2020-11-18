@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Switch, Route, Link} from 'react-router-dom'
-import Header from './components/Header/Header.jsx';
-import Footer from './components/Footer/Footer.jsx';
-import Ajuda from './components/Ajuda/Ajuda';
-import Home from './pages/Home';
-import Social from './pages/Social';
+import { BrowserRouter, Switch, Route, Link} from 'react-router-dom';
+import Ajuda from './components/Ajuda/Ajuda.jsx';
+import Home from './pages/Home.jsx';
+import Social from './pages/Social.jsx';
+import Contato from './pages/Contato.jsx'
 
 
 
@@ -17,6 +16,7 @@ function App() {
           <Route path="/" exact={true} component={Home}/>
           <Route path="/Ajuda" exact={true} component={Ajuda}/>
           <Route path="/Social" exact component={Social}/>
+          <Route path="/Contato" exact component={Contato}/>
        </Switch>
       </BrowserRouter>
   

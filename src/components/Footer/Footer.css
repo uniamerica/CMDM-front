@@ -2,12 +2,9 @@
 .redes{
   background-color: rgb(134, 96, 224);
   color: rgb(43, 10, 48);  
-  font-size: 12px;
+  font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 10px;
-  padding: 0 10px;
   width: 100%;
-  display: flex;
 }
 /*parte inferior*/
 h5 {
@@ -15,8 +12,12 @@ h5 {
     color: rgb(237, 219, 255);
     font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-p{ 
+h4{
+    margin-left: 11%;
+    font-size: 20px;
+    color: rgb(50, 19, 124);
+}
+p{  
     display: flex;
     color: rgb(227, 219, 255);
     font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -51,24 +52,16 @@ p{
     justify-content: space-around;
 }
 
+
 section{
-    margin: 10px;
-    width: 10px;
-    height: 15px;
+    margin: 15px;
+    width: 15px;
+    height: 20px;
 }
 .rede{
-    width: 15px;
-    height: 15px;
-    float: left;
-    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 100px;
     transition: all 0.4s ease-out;
 }
-.rede#facebook{
-    background-color: rgba(62, 39, 83, 0.966);
-}
-.rede#twitter{
-    background-color: rgba(62, 39, 83, 0.966);
-}
-.rede#instagram{
-    background-color: rgba(62, 39, 83, 0.966);
-}
+

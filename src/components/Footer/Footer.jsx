@@ -1,24 +1,26 @@
 import React from 'react'; 
 import './Footer.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import {faTwitter} from '@fortawesome/free-brands-svg-icons';
+
+library.add(faFacebookF, faInstagram, faTwitter); 
+
 
 function Footer(){
     return(
      
         <div className="footer">
             <div className="redes">
-                <p2><strong>Conecte-se conosco em nossas redes sociais!</strong></p2>
+                <h4>Conecte-se conosco em nossas redes sociais!</h4>                
+                <FontAwesomeIcon className="rede" icon={['fab', 'facebook-f']} />               
+                <FontAwesomeIcon className="rede" icon={['fab', 'instagram']} />                
+                <FontAwesomeIcon className="rede" icon={['fab', 'twitter']} />
+                
             </div>
-            <section>
-                <div className="rede" id="facebook">
-                <img src={require("../../img/face.jpg")}></img>
-                </div>
-                <div className="rede" id="twitter">
-                <img src={require("../../img/insta.png")}></img>
-                </div>
-                <div className="rede" id="instagram">
-                <img src={require("../../img/twitter.png")}></img>
-                </div>
-            </section>
+            
             <div className="containers">
             <div className= "container">
                   <h5>COMO PROCURAR AJUDA?</h5>
