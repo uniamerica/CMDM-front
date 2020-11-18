@@ -1,9 +1,13 @@
 import React from 'react';
-import './Ajuda.css';
+import '../styles/Ajuda.css';
+import Header from '../components/Header/Header';
+
 
 function Ajuda(){
     return(
+
         <div className="ajuda">
+               <Header/>           
             <div className="cntaj">
                 <h1><strong>ONDE PROCURAR AJUDA?</strong></h1>
               <h2>  O CREAS é uma unidade pública da política de Assistência Social onde são atendidas famílias e pessoas que estão em
@@ -26,10 +30,8 @@ function Ajuda(){
                 <h2><strong>Em casos de emergência,  ligue para a polícia DISQUE 190.</strong></h2>
                 <h2><strong>Para entrar em contato com o serviço de informações e denúncia da Central de Atendimento a Mulher,
                     DISQUE 180.</strong></h2>
-                <h2><strong>Para contatar o que se pode dizer um “pronto socorro” dos direitos humanos, 
-                    que atentem casos de violação dos mesmos, DISQUE 100</strong></h2>
-               
-
+                <h2><strong>Para contatar “pronto socorro” dos direitos humanos, 
+                    que atendem casos de violação dos mesmos, DISQUE 100</strong></h2>
             
         </div>
     );

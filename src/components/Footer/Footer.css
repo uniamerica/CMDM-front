@@ -2,8 +2,15 @@
 .redes{
   background-color: rgb(134, 96, 224);
   color: rgb(43, 10, 48);  
+<<<<<<< HEAD
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+=======
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 20px;                           
+>>>>>>> 6905c0bea31f8f5a5ba298a563a58cf01c687f9c
   width: 100%;
 }
 /*parte inferior*/
@@ -23,19 +30,29 @@ p{
     font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 12px;
 }
-
+/*footer*/
 .footer {
     display: flex;
     flex-direction: column;
     background-color: rgba(47, 24, 77, 0.966);
 }
-
+/*containers*/
 .container{
-    padding: 20px;     
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;  
+    margin: 0px;   
 }
 
 .container2{
     padding: 20px;
+    margin: 0px;
+}
+
+.containers{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
 }
 
 .copy{ 
@@ -46,6 +63,7 @@ p{
     text-align: center;
     padding: 1cm;
 }
+<<<<<<< HEAD
 
 .containers{
     display: flex;
@@ -53,6 +71,9 @@ p{
 }
 
 
+=======
+/*redes*/
+>>>>>>> 6905c0bea31f8f5a5ba298a563a58cf01c687f9c
 section{
     margin: 15px;
     width: 15px;
@@ -64,4 +85,25 @@ section{
     margin-left: 100px;
     transition: all 0.4s ease-out;
 }
+<<<<<<< HEAD
 
+=======
+.rede#facebook{
+    width: 1px;
+    height: 1px;
+    padding-bottom: 2cm;
+    background-color: rgba(62, 39, 83, 0.966);
+}
+.rede#twitter{
+    width: 1px;
+    height: 1px;
+    padding-bottom: 2cm;
+    background-color: rgba(62, 39, 83, 0.966);
+}
+.rede#instagram{
+    width: 1px;
+    height: 1px;
+    padding-bottom: 2cm;
+    background-color: rgba(62, 39, 83, 0.966);
+}
+>>>>>>> 6905c0bea31f8f5a5ba298a563a58cf01c687f9c

@@ -2,11 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../components/Nav.css'
 
+
 function Nav() {
   return (
     <nav>
         <ul>
-            <li className="active-link">
+            <li className="links">
                 <Link to="/Home">Home</Link>
             </li>
             <li>
@@ -16,7 +17,7 @@ function Nav() {
                 <Link to="/Ajuda">Ajuda</Link>
             </li>
             <li>
-                <Link to="/Contato">Contato</Link>
+                <Link to="/Contatos">Contatos</Link>
             </li>
             <li>
                 <Link to="/Social">Social</Link>
