@@ -2,12 +2,16 @@
 .redes{
   background-color: rgb(134, 96, 224);
   color: rgb(43, 10, 48);  
+<<<<<<< HEAD
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+=======
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 20px;                           
+>>>>>>> 6905c0bea31f8f5a5ba298a563a58cf01c687f9c
   width: 100%;
-  display: flex;
 }
 /*parte inferior*/
 h5 {
@@ -15,8 +19,12 @@ h5 {
     color: rgb(237, 219, 255);
     font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-p{ 
+h4{
+    margin-left: 11%;
+    font-size: 20px;
+    color: rgb(50, 19, 124);
+}
+p{  
     display: flex;
     color: rgb(227, 219, 255);
     font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -55,19 +63,31 @@ p{
     text-align: center;
     padding: 1cm;
 }
+<<<<<<< HEAD
+
+.containers{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+=======
 /*redes*/
+>>>>>>> 6905c0bea31f8f5a5ba298a563a58cf01c687f9c
 section{
-    margin: 10px;
-    width: 10px;
-    height: 15px;
+    margin: 15px;
+    width: 15px;
+    height: 20px;
 }
 .rede{
-    width: 15px;
-    height: 15px;
-    float: left;
-    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 100px;
     transition: all 0.4s ease-out;
 }
+<<<<<<< HEAD
+
+=======
 .rede#facebook{
     width: 1px;
     height: 1px;
@@ -86,3 +106,4 @@ section{
     padding-bottom: 2cm;
     background-color: rgba(62, 39, 83, 0.966);
 }
+>>>>>>> 6905c0bea31f8f5a5ba298a563a58cf01c687f9c

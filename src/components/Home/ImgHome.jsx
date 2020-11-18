@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Home/ImgHome.css';
+import Footer from '../Footer/Footer.jsx';
 
 
 function ImgHome(){
@@ -10,6 +11,7 @@ function ImgHome(){
             <div className="effect_phase">
                 <h3>Defenda sua vida, lute por sua independência, busque sua felicidade e aprenda a se amar!</h3>
             </div>
+            <Footer />
         </div>
     );
 }
