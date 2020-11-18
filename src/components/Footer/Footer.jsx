@@ -8,9 +8,7 @@ function Footer(){
             <div className="redes">
                 <p2><strong>Conecte-se conosco em nossas redes sociais!</strong></p2>
             </div>
-            <section className>
-                
-            </section>
+        
             <div className="containers">
             <div className= "container">
                   <h5>COMO PROCURAR AJUDA?</h5>
