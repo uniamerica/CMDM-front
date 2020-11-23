@@ -1,0 +1,21 @@
+.global{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    width: 75%;
+}
+
+.titulo h1{
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    padding: 1cm;
+}
+
+.titulo p{
+    font-family: Roboto, sans-serif;
+    font-size: .875rem;
+    color: #9088f2;
+    line-height: 20px;
+}

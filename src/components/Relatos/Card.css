@@ -1,0 +1,18 @@
+.card{
+    margin-top: 2cm;
+    width: 300px;
+    border-style: ridge;
+}
+
+.card-header h2{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-body{
+    margin-left: 21px
+}
+
+.card-body p{
+    color: black;
+}

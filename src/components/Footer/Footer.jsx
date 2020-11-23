@@ -20,11 +20,7 @@ function Footer(){
                 <FontAwesomeIcon className="rede" icon={['fab', 'twitter']} />
                 
             </div>
-<<<<<<< HEAD
-            
-=======
         
->>>>>>> 6905c0bea31f8f5a5ba298a563a58cf01c687f9c
             <div className="containers">
             <div className= "container">
                   <h5>COMO PROCURAR AJUDA?</h5>
