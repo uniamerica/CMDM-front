@@ -4,13 +4,13 @@
 }
 
 .titulo{
-    width: 75%;
+    width: 80%;
 }
 
 .titulo h1{
     font-family: Roboto, sans-serif;
     font-size: 32px;
-    padding: 1cm;
+
 }
 
 .titulo p{

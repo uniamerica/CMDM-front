@@ -9,6 +9,7 @@ function Home(){
         <div>
           <Header/>
           <ImgHome/>
+          <Footer/>
         </div>
     );
 }

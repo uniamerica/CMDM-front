@@ -12,17 +12,23 @@
 }
 .link_definition{
     width: 450px;
+    height: 100px;
     position: relative;
     top: -450px;
-    left: 1000px;
-    color: #3d2963;
+    left: 930px;
     background-color: white;
-    border-radius: 50px 50px;
-    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-.link_definition h1{
+.text-link{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #3d2963;
+    text-align: center;
 }
 .effect_phase{
     width: 700px;
@@ -34,7 +40,10 @@
     text-align: center;
     display: flex;
     align-items: center;
+    border-radius: 5px;
 }
 .effect_phase h3{
-    font-size: 32px;
+   font-size: 28px;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
 }

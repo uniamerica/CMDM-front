@@ -3,6 +3,7 @@ import Header from '../components/Header/Header'
 import Titulo from '../components/Relatos/Titulo'
 import '../components/Relatos/Relatos.css'
 import Card from '../components/Relatos/Card'
+import Footer from '../components/Footer/Footer'
 
 function Relatos(){
     return(
@@ -16,6 +17,7 @@ function Relatos(){
                     <Card text="Relato 3" phase="Depois de 1 ano de divorcio do meu primeiro casamento, conheci um homem pelo qual me apaixonei."/>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -1,18 +1,47 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
 .card{
     margin-top: 2cm;
     width: 300px;
-    border-style: ridge;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.card-header{
+    background-color: rgba(0,0,0,.03);
 }
 
 .card-header h2{
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    border-bottom: solid;
+    margin-top: 0%;
+    padding: 12px;
 }
 
 .card-body{
-    margin-left: 21px
+    margin-left: 21px;
 }
 
 .card-body p{
-    color: black;
+    color:#212529;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.open-popup{
+    background-color: #3d2963;
+    padding: 6px 12px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 2px;
 }
