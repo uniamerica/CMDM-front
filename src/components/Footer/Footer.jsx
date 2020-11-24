@@ -22,10 +22,9 @@ function Footer(){
             </div>
             <div className="containers">
             <div className= "container">
-                  <h5>COMO PROCURAR AJUDA?</h5>
+                  <h5>COMO PROCURAR AJUDA?</h5><br/>
                   <p>De acordo com a Lei Maria da Penha, violência doméstica é qualquer ação ou omissão baseada no <br/>
-                     gênero mulher, que lhe cause algum dano físico, moral ou patrimonial, sofrimento sexual ou morte.</p>
-                  <p>
+                     gênero mulher, que lhe cause algum dano físico, moral ou patrimonial, sofrimento sexual ou morte.<br/>
                     Para denunciar, você pode:<br />
                     Entrar em contato com o serviço de informações e denúncia da Central de Atendimento a Mulher, <br/> 
                     ligando no 180.<br />

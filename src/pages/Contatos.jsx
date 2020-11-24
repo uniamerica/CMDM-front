@@ -8,25 +8,25 @@ function Contatos() {
 return (
     <div>
         <Header/>
-        <div>
+        <div className="container">
             <h1>Contato</h1>
                 <div>
-                    <p>
+                    <p className="pe">
                         Você tem alguma pergunta? Por favor, não hesite em nos contatar diretamente.<br/>
                         Não se preocupe seus dados não serão divulgados junto com o seu depoimento.<br/>
                         Envie seu depoimento.
                     </p>
                     <form>
-                        <div>
-                            <div>
+                        <div className="formulario">
+                            <div className="form1">
                                 <input type="text" name="name" />
                                 <label for="name">Nome</label>
                             </div>
-                            <div>
+                            <div className="form1">
                                 <input type="mail" name="email" />
                                 <label for="email" >E-mail</label>
                             </div>
-                        </div>
+                        </div><br/>
                         <div>
                             <div>
                                 <input type="text" name="subject" />
@@ -35,7 +35,7 @@ return (
                         </div>
                         <div>
                             <div>
-                                <textarea type="text" name="message" rows="2"/>
+                                <textarea className="textarea" type="text" name="message" rows="2"/>
                                 <label for="message">Mensagem</label>
                             </div>
                         </div>
