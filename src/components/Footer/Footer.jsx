@@ -21,7 +21,6 @@ function Footer(){
                 <FontAwesomeIcon className="rede" icon={['fab', 'twitter']} />
                 
             </div>
-        
             <div className="containers">
             <div className= "container">
                   <h5>COMO PROCURAR AJUDA?</h5>
@@ -50,7 +49,7 @@ function Footer(){
                 
             </div>
             <div className="copy">
-               <p3>© 2020 Copyright</p3> 
+               <p>© 2020 Copyright</p> 
             </div>
             
         </div>

@@ -1,7 +1,17 @@
-.texto {
-    color: rgb(61, 23, 97);
-    font-weight: bold;
-    font-size: 20px;
+.h2{
     display: flex;
     justify-content: center;
+    font-size: 20px;
+    color: purple;
+}
+.h3{
+    border-radius: 10px;
+    background-color: purple; 
+    width: 160px; 
+    color: #f5f8fa; 
+   
+}
+
+.ul li {
+    display: flex;
 }
