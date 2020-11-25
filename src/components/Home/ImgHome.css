@@ -15,7 +15,8 @@
     height: 100px;
     position: relative;
     top: -450px;
-    left: 930px;
+    left: 920px;
+    color: #3d2963;
     background-color: white;
     border-radius: 15px;
     display: flex;
