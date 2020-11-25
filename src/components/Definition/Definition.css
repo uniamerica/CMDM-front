@@ -1,0 +1,16 @@
+h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2cm;
+}
+p{
+    color: #858282;
+    font-family: Bahnschrift;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

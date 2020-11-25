@@ -1,31 +1,23 @@
 import React from 'react'
 import Header from '../components/Header/Header'
+import Titulo from '../components/Relatos/Titulo'
 import '../components/Relatos/Relatos.css'
+import Card from '../components/Relatos/Card'
+import Footer from '../components/Footer/Footer'
 
 function Relatos(){
     return(
         <div>
             <Header/>
-            <div className="container">
-                <div className="titulo">
-                    <h1>Reconhecendo a Violência</h1>
-                    <p>A agressão física nunca é o primeiro sinal no ciclo da violência
-                    doméstica, abaixo segue alguns depoimentos de pessoas alvo de 
-                    agressões. Visando que motive as vítimas a denunciarem seus 
-                    agressores.</p>
-                </div>
-
-                <div className="card">
-                    <div className="card-header">
-                        <h2>Relato 1</h2>
-                    </div>
-                    <div className="card-body">
-                        <p>Nunca tive problemas financeiros antes de 
-                        me envolver com um parasita sociopata.</p>
-                        <button>Ler mais</button>
-                    </div>
+            <div className="container1">
+                <Titulo/>
+                <div className="cards">
+                    <Card text="Relato 1" phase="Nunca tive problemas financeiros antes de me envolver com um parasita sociopata."/>
+                    <Card text="Relato 2" phase="Tudo começou quando eu tinha 15 anos, aaa que saudade."/>
+                    <Card text="Relato 3" phase="Depois de 1 ano de divorcio do meu primeiro casamento, conheci um homem pelo qual me apaixonei."/>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
