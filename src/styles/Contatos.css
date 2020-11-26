@@ -1,4 +1,4 @@
-.container{
+.containerContato{
     width: 50%;
     height: 500px;
     padding: 20px;
@@ -29,7 +29,7 @@ i{
     margin-top: 10px;
 }
 
-.ul {
+.ulContato{
     margin-top: 20%;
     height: 100px;
     display: flex;
@@ -41,10 +41,10 @@ i{
     display: flex;
     flex-direction: row;
 }
-label{
+.labelContato{
     padding-top: 10px;
     padding-bottom: 250px; 
-    margin-left: 0;   
+    margin-left: 2%;   
 }
 .formulario{
     width: 100%;
@@ -87,7 +87,7 @@ label{
     padding-top: 15px;
 }
 
-.p{
+.pContato{
     color: rebeccapurple;
     font-size: 15px;
     width: 550px;
