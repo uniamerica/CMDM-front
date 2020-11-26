@@ -21,7 +21,7 @@ function Footer(){
                 
             </div>
             <div className="containers">
-            <div className= "container">
+            <div className= "container1">
                   <h5>COMO PROCURAR AJUDA?</h5><br/>
                   <p>De acordo com a Lei Maria da Penha, violência doméstica é qualquer ação ou omissão baseada no <br/>
                      gênero mulher, que lhe cause algum dano físico, moral ou patrimonial, sofrimento sexual ou morte.<br/>

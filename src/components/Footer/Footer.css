@@ -30,7 +30,7 @@ p{
     background-color: rgba(47, 24, 77, 0.966);
 }
 /*containers*/
-.container{
+.container1{
     padding: 20px;  
     margin: 0px;   
 }
@@ -54,14 +54,10 @@ p{
     text-align: center;
     padding: 1cm;
 }
-
-
-
-
 section{
     margin: 15px;
     width: 15px;
-    height: 20px;
+    height: 20px; 
 }
 .rede{
     width: 20px;

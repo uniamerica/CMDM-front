@@ -63,6 +63,7 @@ input[type=submit]{
   color: #ccc;
   padding: 16px 32px;
   border-radius: 100px;
+  width: 10%;
 }
 .enviar{
 	display: block;
@@ -70,12 +71,10 @@ input[type=submit]{
 	width:100%;
 
 }
-
-
 input[type=submit]:hover{
 	background-color: #9C3CC0;
 }
-textarea {
+.textarea {
   width: 1100px;
   height: 35px;
   padding: 8px 16px;
