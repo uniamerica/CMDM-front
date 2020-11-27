@@ -8,19 +8,19 @@ function Nav() {
     <nav>
         <ul>
             <li className="links">
-                <Link to="/Home">Home</Link>
+                <Link className="each-link" to="/Home">Home</Link>
             </li>
             <li>
-                <Link to="/Relatos">Relatos</Link>
+                <Link className="each-link" to="/Relatos">Relatos</Link>
             </li>
             <li>
-                <Link to="/Ajuda">Ajuda</Link>
+                <Link className="each-link" to="/Ajuda">Ajuda</Link>
             </li>
             <li>
-                <Link to="/Contato">Contato</Link>
+                <Link className="each-link" to="/Contato">Contato</Link>
             </li>
             <li>
-                <Link to="/Social">Social</Link>
+                <Link className="each-link" to="/Social">Social</Link>
             </li>
         </ul>
     </nav>
