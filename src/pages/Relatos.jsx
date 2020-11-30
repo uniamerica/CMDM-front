@@ -17,7 +17,7 @@ function Relatos(){
                     <Card text="Relato 3" phase="Depois de 1 ano de divorcio do meu primeiro casamento, conheci um homem pelo qual me apaixonei."/>
                 </div>
             </div>
-            <Footer/>
+            
         </div>
     )
 }
