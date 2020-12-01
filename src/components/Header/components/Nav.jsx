@@ -17,7 +17,7 @@ function Nav() {
                 <Link className="each-link" to="/Ajuda">Ajuda</Link>
             </li>
             <li>
-                <Link className="each-link" to="/Contato">Contato</Link>
+                <Link className="each-link" to="/Contatos">Contato</Link>
             </li>
             <li>
                 <Link className="each-link" to="/Social">Social</Link>
