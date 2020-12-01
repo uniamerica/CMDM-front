@@ -22,6 +22,7 @@ function Nav() {
             <li>
                 <Link className="each-link" to="/Social">Social</Link>
             </li>
+        
         </ul>
     </nav>
   );

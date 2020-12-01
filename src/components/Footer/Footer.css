@@ -1,65 +1,90 @@
 /*parte superior*/
 .redes{
-  background-color: rgb(134, 96, 224);
+  background-color: #9088f2;
   color: rgb(43, 10, 48);  
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
 }
 /*parte inferior*/
-h5 {
-    display: flex;
-    color: rgb(237, 219, 255);
-    font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-h4{
-    margin-left: 10%;
-    font-size: 12px;
+
+.redes h4{
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(50, 19, 124);
+    text-align: center;
+    line-height: 50px;
+    margin-left: 10%;
 }
-.pFooter{  
-    display: flex;
-    color: rgba(221, 187, 255, 0.973);
-    font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 12px;
+.redes .icones{
+    margin-right: 10%;
 }
+
 /*footer*/
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: rgba(47, 24, 77, 0.966);
+    background: #3d2963;
 }
 /*containers*/
+.containers{
+    
+    display: flex;
+}
+
+.containers p{
+    background: #3d2963;
+    font-size: 15px;
+    color: #9088f2;
+    font-weight: 600;
+    margin: 7.5px 150px;
+}
+
+
 .container1{
-    padding: 20px;  
-    margin: 0px;   
+    width: 70%;
+    padding: 1.5cm;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container1 h5{
+    margin-left: 150px;
+    color: #9088f2;
+    margin-bottom: 1cm;
 }
 
 .container2Footer{
-    padding: 2%;
-    margin: 0px;
-    width: 25%;
+    width: 30%;
+    padding: 1.5cm;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
 }
 
-.containers{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px;
+.container2Footer p{
+    
+    margin: 0px 0px 20px 0px;
+   
 }
+
+.container2Footer h5{
+    margin-bottom: 1cm;
+    color: #9088f2;
+}
+
 
 .copy{ 
     color: rgba(221, 187, 255, 0.904);
-    font-size: 10px;
+    font-size: 8px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: center;
     padding: 1cm;
-}
-section{
-    margin: 15px;
-    width: 15px;
-    height: 20px; 
 }
 .rede{
     width: 20px;
