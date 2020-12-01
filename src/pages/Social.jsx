@@ -47,7 +47,7 @@ return (
       </div>
       <br />
       <div className ="enviar">
-        <textarea placeholder="Enviar Mensagem..." />
+        <textarea className="textarea" placeholder="Enviar Mensagem..." />
         <input type="submit" value="Enviar"/> 
       </div>
     </div>

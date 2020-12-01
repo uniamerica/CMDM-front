@@ -5,11 +5,9 @@ import Ajuda from './pages/Ajuda.jsx';
 import Home from './pages/Home.jsx';
 import Social from './pages/Social.jsx';
 import Contatos from './pages/Contatos.jsx';
-import Relatos from './pages/Relatos'
-import Definition from './pages/Definition'
+import Relatos from './pages/Relatos';
+import Definition from './pages/Definition';
 import Footer from './components/Footer/Footer.jsx';
-
-
 
 function App() {
   return (

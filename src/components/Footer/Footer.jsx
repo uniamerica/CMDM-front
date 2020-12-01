@@ -22,11 +22,10 @@ function Footer(){
                 
             </div>
             <div className="containers">
-            <div className= "container">
-                  <h5>COMO PROCURAR AJUDA?</h5>
-                  <p>De acordo com a Lei Maria da Penha, violência doméstica é qualquer ação ou omissão baseada no <br/>
-                     gênero mulher, que lhe cause algum dano físico, moral ou patrimonial, sofrimento sexual ou morte.</p>
-                  <p>
+            <div className= "container1">
+                  <h5>COMO PROCURAR AJUDA?</h5><br/>
+                  <p className="pFooter">De acordo com a Lei Maria da Penha, violência doméstica é qualquer ação ou omissão baseada no <br/>
+                     gênero mulher, que lhe cause algum dano físico, moral ou patrimonial, sofrimento sexual ou morte.<br/>
                     Para denunciar, você pode:<br />
                     Entrar em contato com o serviço de informações e denúncia da Central de Atendimento a Mulher, <br/> 
                     ligando no 180.<br />
@@ -37,14 +36,14 @@ function Footer(){
                     direitos e o fortalecimento dos vínculos familiares.
                     </p>
             </div>
-            <div className="container2">
+            <div className="container2Footer">
                 <h5>ONDE PROCURAR AJUDA?</h5>
-                <p><strong>Foz do Iguaçu</strong></p>
-                <p><strong>CRAS NORTE </strong>(45) 3901-3268</p>
-                <p><strong>CRAS NORDESTE </strong> (45) 3901-3271</p>
-                <p><strong>CRAS LESTE </strong> (45) 3901-3273</p>
-                <p><strong>CRAS OESTE</strong>  (45) 3527-7206</p>
-                <p><strong>CRAS SUL</strong>(45) 3901-3260</p>
+                <p className="pFooter"><strong>Foz do Iguaçu</strong></p>
+                <p className="pFooter"><strong>CRAS NORTE </strong>(45) 3901-3268</p>
+                <p className="pFooter"><strong>CRAS NORDESTE </strong> (45) 3901-3271</p>
+                <p className="pFooter"><strong>CRAS LESTE </strong> (45) 3901-3273</p>
+                <p className="pFooter"><strong>CRAS OESTE</strong>  (45) 3527-7206</p>
+                <p className="pFooter"><strong>CRAS SUL</strong>(45) 3901-3260</p>
              </div>
                 
             </div>
