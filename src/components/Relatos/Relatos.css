@@ -1,3 +1,7 @@
+body{
+    background: #f5f8fa;
+}
+
 .container1{
     width: 100%;
     display: flex;
