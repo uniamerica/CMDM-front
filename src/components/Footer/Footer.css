@@ -13,11 +13,12 @@ h5 {
     font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h4{
-    margin-left: 11%;
-    font-size: 20px;
+    margin-left: 10%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(50, 19, 124);
 }
-p{  
+.pFooter{  
     display: flex;
     color: rgb(227, 219, 255);
     font-weight: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -30,16 +31,15 @@ p{
     background-color: rgba(47, 24, 77, 0.966);
 }
 /*containers*/
-.container{
-
-    
+.container1{
     padding: 20px;  
     margin: 0px;   
 }
 
-.container2{
-    padding: 20px;
+.container2Footer{
+    padding: 2%;
     margin: 0px;
+    width: 25%;
 }
 
 .containers{
@@ -56,12 +56,10 @@ p{
     text-align: center;
     padding: 1cm;
 }
-
-
 section{
     margin: 15px;
     width: 15px;
-    height: 20px;
+    height: 20px; 
 }
 .rede{
     width: 20px;

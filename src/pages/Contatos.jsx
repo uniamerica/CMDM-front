@@ -1,73 +1,86 @@
 import React from 'react';
 import '../styles/Contatos.css';
 import Header from '../components/Header/Header.jsx';
-import Footer from '../components/Footer/Footer.jsx';
+import '../../node_modules/font-awesome/css/font-awesome.min.css'; 
+import Checkbox from '../components/Checkbox/checkbox.js';
 
 
 function Contatos() {
 return (
-    <div>
+    <div >
         <Header/>
-        <div>
-            <h1>Contato</h1>
-                <div>
-                    <p>
+       
+            <h1 className="h1">Contato</h1>
+            <div className="principal">
+                <div className="containerContato">
+                    <p className="pContato">
                         Você tem alguma pergunta? Por favor, não hesite em nos contatar diretamente.<br/>
                         Não se preocupe seus dados não serão divulgados junto com o seu depoimento.<br/>
                         Envie seu depoimento.
                     </p>
-                    <form>
-                        <div>
-                            <div>
-                                <input type="text" name="name" />
-                                <label for="name">Nome</label>
+                    <form action="Mensagem">
+                        
+                        <div className="formulario">
+                            
+                            <div className="form1">
+                                <input type="text" name="name" placeholder="Maria da Silva"/>
+                                <label className="labelContato" for="name">Nome</label>
                             </div>
-                            <div>
-                                <input type="mail" name="email" />
-                                <label for="email" >E-mail</label>
+                            <div className="form1">
+                                <input type="email" name="email" placeholder="mariadasilva@email.com"/>
+                                <label className="labelContato" for="email" >E-mail</label>
                             </div>
                         </div>
+                        <br/>
                         <div>
-                            <div>
-                                <input type="text" name="subject" />
-                                <label for="subject">Assunto</label>
+                            <div className="form2">
+                                <input type="text" name="subject" placeholder="Assunto"/>
+                                <label className="labelContato" for="subject">Assunto</label>
                             </div>                            
                         </div>
                         <div>
-                            <div>
-                                <textarea type="text" name="message" rows="2"/>
-                                <label for="message">Mensagem</label>
+                            <div className="form2">
+                                <textarea className="mensagem" type="text" name="message" rows="2"/>
+                                <label className="labelContato" for="message">Mensagem</label>
                             </div>
                         </div>
+                        <input type="submit" value="Enviar "/>
                         <div>
-                            <div>
-                                <input type="checkbox" name="aceito" />
-                                <label for="checkbox">Aceito publicar meu depoimento</label>
+                            <div className="formulario">
+                                <Checkbox className="check"/>
+                                <label className="check"for="checkbox">Aceito publicar meu depoimento</label>
                             </div>
                         </div>
+                       
                     </form>
                 </div>
-                <div>
-                    <ul>
-                        <li>
-                            <p class="mb-0">CRAS NORTE – (45) 3901-3268</p>
+                <div className="telefones">
+                    <ul className="ulContato">
+                        <li>                       
+                            <i className="fa fa-phone"></i>   
+                            <p className="pContato"> CRAS NORTE    – (45) 3901-3268 </p>
                         </li>
                         <li>
-                            <p class="mb-0">CRAS NORDESTE – (45) 3901-3271</p>
+                            <i className="fa fa-phone"> </i>
+                            <p className="pContato">CRAS NORDESTE – (45) 3901-3271</p>
                         </li>
                         <li>
-                            <p class="mb-0">CRAS LESTE – (45) 3901-3273</p>
+                            <i className="fa fa-phone"></i>
+                            <p className="pContato"> CRAS LESTE    – (45) 3901-3273  </p>
+                                                      
                         </li>
                         <li>
-                            <p class="mb-0">CRAS OESTE – (45) 3527-7206</p>
+                            <i className="fa fa-phone"></i> 
+                            <p className="pContato">CRAS OESTE    – (45) 3527-7206</p>
+                                                       
                         </li>
                         <li>
-                            <p class="mb-0">CRAS SUL – (45) 3901-3260</p>
+                            <i className="fa fa-phone"> </i>
+                            <p className="pContato">CRAS SUL      – (45) 3901-3260</p>
                         </li>
                     </ul>
                 </div>
         </div>
-        <Footer/>
     </div>
 );
 
