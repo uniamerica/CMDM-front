@@ -12,13 +12,13 @@ function ViolenceTips(){
                         <div>
                         <h3 > VIOLÊNCIA PSICOLÓGICA:</h3>
                             <ul className= "Tipos-Violência">
-                                <li><strong>- Humilhações</strong></li>
-                                <li><strong>- Ameaças</strong></li>
-                                <li><strong>- Chantagens</strong></li>
-                                <li><strong>- Perseguições</strong></li>
-                                <li><strong>- Controle de vida social</strong></li>
+                                <li>- Humilhações</li>
+                                <li>- Ameaças</li>
+                                <li>- Chantagens</li>
+                                <li>- Perseguições</li>
+                                <li>- Controle de vida social</li>
                                 
-                            </ul>
+                            </ul> 
                         </div>
 
                         <div>
