@@ -62,7 +62,7 @@ function Relatos(){
                     Deixo uma mensagem a todas as mulheres que estão sendo agredidas... denuncie, não adianta você perdoar. Eles não mudam, e não vão parar de agredi-las. Não acredite nas promessas deles."/>
                 </div>
             </div>
-            <Footer/>
+            
         </div>
     )
 }
