@@ -2,31 +2,37 @@
     display: flex;
     justify-content: space-between;
     width: 65%;
+    padding-bottom: 1cm;
 }
 
 .card{
     margin-top: 2cm;
-    width: 300px;
+    width: 320px;
     border-style: solid;
     border-color: gainsboro;
     border-width: 1px;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .card-header{
-    background-color: rgba(0,0,0,.03);
+    background-color: rgba(0,0,0,.009);
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,.03);;
 }
 
 .card-header h2{
     font-size: 15px;
     font-family: Roboto, sans-serif;
-    border-bottom: solid;
-    margin-top: 0%;
+    margin: 0%;
     padding: 12px;
+    font-weight: 100;
 }
 
 .card-body{
     margin-left: 21px;
+    padding: 12px;
+    background: white;
 }
 
 .card-body p{
@@ -37,11 +43,60 @@
     height: 50px;
 }
 
-.open-popup{
+.popup-btn{
     background-color: #3d2963;
     padding: 6px 12px;
     font-family: Roboto, sans-serif;
     color: white;
     border: none;
-    border-radius: 2px;
+    border-radius: 5px;
 }
+
+.popup{
+    background: white;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+    width: 1100px;
+    padding: 0.0cm;
+    border-radius: 5px;
+    position: relative;
+    top: -20px
+}
+
+.popup .header{
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+}
+
+.popup .header h2{
+    font-size: 18px;
+    margin: 20px;
+    padding: 0%;
+}
+
+.popup .content{
+    height: 450px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+}
+
+.popup .content p{
+    font-size: 14px;
+    color: #3d2963;
+    font-family: Roboto, sans-serif;
+    line-height: 20px;
+    margin: 20px;
+}
+
+.modal{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal button{
+    margin: 10px;
+}
+

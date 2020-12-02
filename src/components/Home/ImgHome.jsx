@@ -11,10 +11,10 @@ function ImgHome(){
                 <Link className="text-link" to="/Definition"><strong>O que é violência doméstica?</strong></Link>
             </div>
             <div className="effect_phase">
-                <h3>Defenda sua vida, lute por sua independência, busque sua felicidade e aprenda a se amar!</h3>
+                <a>Defenda sua vida, lute por sua independência, busque sua felicidade e aprenda a se amar!</a>
             </div>
         </div>
     );
 }
-
+              
 export default ImgHome;

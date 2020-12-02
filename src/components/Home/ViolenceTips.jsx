@@ -6,8 +6,8 @@ function ViolenceTips(){
     return (
         /**row flex direction */
 <div className="ViolenceTips0">
-    <div> <h2><strong> Quais são os tipos de violência doméstica? </strong></h2></div>
-           <p><strong>A violência doméstica pode ser caracterizada de várias formas:</strong></p>
+    <div> <h2><strong> Quais são os tipos de violência doméstica? </strong></h2>
+           <p><strong>A violência doméstica pode ser caracterizada de várias formas:</strong></p></div>
         <div className="ViolenceTips">
                         <div>
                         <h3 > VIOLÊNCIA PSICOLÓGICA:</h3>

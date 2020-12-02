@@ -1,3 +1,7 @@
+body{
+    background: #f5f8fa;
+}
+
 .redes{
     background-color: rgba(166, 114, 233, 0.966);
     color: rgba(55, 16, 109, 0.966);
@@ -10,24 +14,26 @@
 }
 
 h1{
-    margin: 20px;
-    color: rgb(95, 6, 95);
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    color: #3d2963;
+    text-align: center;
+    padding: 1cm;
+}
+
+
+
+.cntaj p{
+    padding: 2cm;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #3d2963;
     display: flex;
     justify-content: center;
 }
 
-.ajuda h2 {
-    margin: 10px;
-    padding: 0 10px;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    color: rgb(102, 36, 102);
+p{
+    padding: 0 10px !important;
     
 }
-
