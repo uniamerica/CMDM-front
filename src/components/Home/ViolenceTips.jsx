@@ -4,10 +4,10 @@ import './ViolenceTips.css'
 
 function ViolenceTips(){
     return (
-        /**row flex direction */
+        
 <div className="ViolenceTips0">
     <div> <h2><strong> Quais são os tipos de violência doméstica? </strong></h2></div>
-           <p><strong>A violência doméstica pode ser caracterizada de várias formas:</strong></p>
+           <p>A violência doméstica pode ser caracterizada de várias formas:</p>
         <div className="ViolenceTips">
                         <div>
                         <h3 > VIOLÊNCIA PSICOLÓGICA:</h3>
@@ -24,13 +24,13 @@ function ViolenceTips(){
                         <div>
                         <h3>VIOLÊNCIA SEXUAL:</h3>
                             <ul className= "Tipos-Violência">
-                                <li>- Sexo forçado</li>
-                                <li>- Sexo forçado com outras pessoas</li>
-                                <li>- Impedir o uso do método contraceptivo</li>
-                                <li>- Forçar uma gravidez</li>
-                                <li>- Obrigar a ver pornografia</li>
-                                <li>- Sexo em troca de dinheiro ou bens</li>
-                                <li>- Forçar um aborto</li>
+                                <li><strong></strong>- Sexo forçado</li>
+                                <li><strong></strong>- Sexo forçado com outras pessoas</li>
+                                <li><strong></strong>- Impedir o uso do método contraceptivo</li>
+                                <li><strong></strong>- Forçar uma gravidez</li>
+                                <li><strong></strong>- Obrigar a ver pornografia</li>
+                                <li><strong></strong>- Sexo em troca de dinheiro ou bens</li>
+                                <li><strong></strong>- Forçar um aborto</li>
                             </ul>
                         </div>
         </div>        
@@ -38,24 +38,24 @@ function ViolenceTips(){
                         <div>
                         <h3>VIOLÊNCIA MORAL:</h3>
                             <ul className= "Tipos-Violência">
-                                <li>- Xingamentos</li>
-                                <li>- Injurías</li>
-                                <li>- Calúnias</li>
-                                <li>- Difamações</li>    
+                                <li><strong></strong>- Xingamentos</li>
+                                <li><strong></strong>- Injurías</li>
+                                <li><strong></strong>- Calúnias</li>
+                                <li><strong></strong>- Difamações</li>    
                             </ul>                    
                         </div>
             
                         <div>
                             <h3>VIOLÊNCIA FÍSICA:</h3>
                             <ul className= "Tipos-Violência">
-                                <li>- Tapas</li>
-                                <li>- Chutes</li>
-                                <li>- Queimaduras</li>
-                                <li>- Torturas</li>
-                                <li>- Feminicídios</li>
-                                <li>- Socos</li>
-                                <li>- Apertar o pescoço</li>
-                                <li>- Agressões com armas e outros objetos</li> 
+                                <li><strong></strong>- Tapas</li>
+                                <li><strong></strong>- Chutes</li>
+                                <li><strong></strong>- Queimaduras</li>
+                                <li><strong></strong>- Torturas</li>
+                                <li><strong></strong>- Feminicídios</li>
+                                <li><strong></strong>- Socos</li>
+                                <li><strong></strong>- Apertar o pescoço</li>
+                                <li><strong></strong>- Agressões com armas e outros objetos</li> 
                             </ul>
                         </div>
                     
@@ -64,18 +64,18 @@ function ViolenceTips(){
                                 <div>
                                     <h3>VIOLÊNCIA VIRTUAL:</h3>
                                     <ul className= "Tipos-Violência">
-                                        <li>- Divulgar/compartilhar fotos e vídeos intimos pela internet e/ ou redes sociais, sem autorização da mulher, com o propósito de humilhá-la ou chantageá-la.</li>
-                                        <li>- Utilizar redes sociais e celulares para propagar comentários depreciativos em relação à mulher.</li>
+                                        <li><strong></strong>- Divulgar/compartilhar fotos e vídeos intimos pela internet e/ ou redes sociais,<br/> sem autorização da mulher, com o propósito de humilhá-la ou chantageá-la.</li>
+                                        <li><strong></strong>- Utilizar redes sociais e celulares para propagar comentários depreciativos em relação <br/> à mulher.</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <h3>VIOLÊNCIA PATRIMONIAL:</h3>
                                     <ul className= "Tipos-Violência">
-                                        <li>- Quebrar celulares e objetos pessoais</li>
-                                        <li>- Rasgar fotos</li>
-                                        <li>- Quebrar móveis</li>
-                                        <li>- Rasgar roupas</li>
-                                        <li>- Estragar objetos de trabalho</li>
+                                        <li><strong></strong>- Quebrar celulares e objetos pessoais</li>
+                                        <li><strong></strong>- Rasgar fotos</li>
+                                        <li><strong></strong>- Quebrar móveis</li>
+                                        <li><strong></strong>- Rasgar roupas</li>
+                                        <li><strong></strong>- Estragar objetos de trabalho</li>
                                     </ul>
                                     </div>
                 </div>
