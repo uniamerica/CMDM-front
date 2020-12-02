@@ -23,7 +23,7 @@ function App() {
           <Route path="/Definition"  component={Definition}/>
         </Switch>
       </BrowserRouter>
-      <Footer/>
+     <Footer/>
     </div>
   );
 } 
