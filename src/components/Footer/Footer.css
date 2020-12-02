@@ -8,6 +8,7 @@
   height: 70px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 /*parte inferior*/
 
@@ -44,17 +45,18 @@
 }
 
 
-.container1{
+.container01{
     width: 70%;
     padding: 1.5cm;
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
 }
 
-.container1 h5{
+.container01 h5{
     margin-left: 150px;
     color: #9088f2;
-    margin-bottom: 1cm;
+    margin-bottom: 0.8cm;
 }
 
 .container2Footer{
@@ -73,7 +75,7 @@
 }
 
 .container2Footer h5{
-    margin-bottom: 1cm;
+    margin-bottom: 0.8cm;
     color: #9088f2;
 }
 
