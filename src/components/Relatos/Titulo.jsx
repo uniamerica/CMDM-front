@@ -5,7 +5,7 @@ function Titulo(){
     return(
         <div className="global">
             <div className="titulo">
-                <h1>Reconhecendo a Violência</h1>
+                <h1>RECONHECENDO A VIOLÊNCIA</h1>
                 <p>A agressão física nunca é o primeiro sinal no ciclo da violência
                 doméstica, abaixo segue alguns depoimentos de pessoas alvo de 
                 agressões. Visando que motive as vítimas a denunciarem seus 
