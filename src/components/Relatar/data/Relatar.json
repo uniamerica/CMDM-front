@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Maria",
+        "email": "maria@email.com",
+        "relato": "RELATO DA MARIA"
+    },
+
+    {
+        "nome": "Renata",
+        "email": "renata@email.com",
+        "relato":"RELATO DA RENATA"
+    },
+
+    {
+        "nome": "Giovana",
+        "email": "giovana@email.com",
+        "relato": "RELATO DA GIOVANA"
+    }
+    
+]

@@ -6,6 +6,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import '../components/Definition/Definition.css';
+import Titulo from '../components/Relatos/Titulo'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -22,8 +23,7 @@ function Definition(){
         <div>
             <Header/>
             <div class="containerDef">
-                <h1>O QUE É VIOLÊNCIA DOMÉSTICA?</h1>
-                <p className="pDef">De acordo com o art 5° da lei Maria da Penha, a Violência doméstica é um padrão de
+                <Titulo titulo="O QUE É VIOLÊNCIA DOMÉSTICA?" text="De acordo com o art 5° da lei Maria da Penha, a Violência doméstica é um padrão de
                     comportamento que envolve um tipo específico de violência ou de abuso por parte de uma 
                     pessoa seja companheiro, membros da família, desconhecidos, etc contra uma mulher. <br/> <br/> 
                     A violência doméstica pode assumir diversos tipos, incluindo abusos físicos, verbais,
@@ -31,7 +31,7 @@ function Definition(){
                     desde formas sutis e coercivas até violação conjugal e abusos físicos violentos como 
                     sufocação, espancamento, mutilação genital feminina e ataques com ácido que provoquem 
                     desfiguração ou morte. Os homícidios domésticos incluem o apedrejamento, imolação de noivas, 
-                    morte por dote e crimes de "honra".</p>
+                    morte por dote e crimes de honra."/>
                 <div >
                     <div className="containerDef2">
                         <div className={classes.root}>

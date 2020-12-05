@@ -14,13 +14,13 @@ function Nav() {
                 <Link className="each-link" to="/Relatos">Relatos</Link>
             </li>
             <li>
-                <Link className="each-link" to="/Ajuda">Ajuda</Link>
+                <Link className="each-link" to="/Relatar">Relatar</Link>
+            </li>
+            <li>
+                <Link className="each-link" to="/Ajuda">Procurar ajuda</Link>
             </li>
             <li>
                 <Link className="each-link" to="/Contatos">Contato</Link>
-            </li>
-            <li>
-                <Link className="each-link" to="/Social">Social</Link>
             </li>
         
         </ul>

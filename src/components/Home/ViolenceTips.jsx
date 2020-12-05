@@ -1,22 +1,24 @@
 import React from 'react'
 import './ViolenceTips.css'
+import {Link} from 'react-router-dom'
+import { Button } from '@material-ui/core';
 
 
 function ViolenceTips(){
     return (
-        
+      
 <div className="ViolenceTips0">
-    <div> <h2><strong> Quais são os tipos de violência doméstica? </strong></h2></div>
-           <p>A violência doméstica pode ser caracterizada de várias formas:</p>
+        <h2><strong> Quais são os tipos de violência doméstica? </strong></h2>
+        <p>A violência doméstica pode ser caracterizada de várias formas:</p>
         <div className="ViolenceTips">
                         <div>
                         <h3 > VIOLÊNCIA PSICOLÓGICA:</h3>
                             <ul className= "Tipos-Violência">
-                                <li><strong>- Humilhações</strong></li>
-                                <li><strong>- Ameaças</strong></li>
-                                <li><strong>- Chantagens</strong></li>
-                                <li><strong>- Perseguições</strong></li>
-                                <li><strong>- Controle de vida social</strong></li>
+                                <li>- Humilhaçõe</li>
+                                <li>- Ameaça</li>
+                                <li>- Chantagen</li>
+                                <li>- Perseguiçõe</li>
+                                <li>- Controle de vida socia</li>
                                 
                             </ul>
                         </div>
@@ -80,7 +82,8 @@ function ViolenceTips(){
                                     </div>
                 </div>
         
-            
+            <Link className="linkto" to="/Definition"><button><h3>O QUE É VIOLÊNCIA DOMÉSTICA?</h3></button></Link>
+            <p>Acesse a página clicando no botão acima para mais infomações sobre violência doméstica!</p>
     
 </div>
     );

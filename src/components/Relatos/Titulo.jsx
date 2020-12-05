@@ -1,15 +1,16 @@
 import React from 'react'
 import './Titulo.css'
 
-function Titulo(){
+function Titulo(props){
+
+    var titulo = props.titulo
+    var text = props.text
+
     return(
         <div className="global">
             <div className="titulo">
-                <h1>RECONHECENDO A VIOLÊNCIA</h1>
-                <p>A agressão física nunca é o primeiro sinal no ciclo da violência
-                doméstica, abaixo segue alguns depoimentos de pessoas alvo de 
-                agressões. Visando que motive as vítimas a denunciarem seus 
-                agressores.</p>
+                <h1>{titulo}</h1>
+                <p>{text}</p>
             </div>
         </div>
     )

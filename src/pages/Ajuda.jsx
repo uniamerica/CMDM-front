@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Ajuda.css';
-import Header from '../components/Header/Header';
+import Header from '../components/Header/Header'
+import Titulo from '../components/Relatos/Titulo'
 
 
 function Ajuda(){
@@ -8,7 +9,7 @@ function Ajuda(){
 
         <div className="ajuda">
             <Header/>      
-            <h1>ONDE PROCURAR AJUDA?</h1>     
+            <Titulo titulo="ONDE PROCURAR AJUDA?"/>    
             <div className="cntaj">
                 <p> De acordo com a Lei Maria da Penha, violência doméstica é qualquer ação ou omissão baseada no gênero mulher, que lhe cause algum dano físico, moral ou patrimonial, sofrimento sexual ou morte.</p>
                 <p>Para denunciar, você pode:</p>

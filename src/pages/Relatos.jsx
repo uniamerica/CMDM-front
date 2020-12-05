@@ -3,14 +3,16 @@ import Header from '../components/Header/Header'
 import Titulo from '../components/Relatos/Titulo'
 import '../components/Relatos/Relatos.css'
 import Card from '../components/Relatos/Card'
-import Footer from '../components/Footer/Footer'
 
 function Relatos(){
     return(
         <div>
             <Header/>
             <div className="container1">
-                <Titulo/>
+                <Titulo titulo="RECONHECENDO A VIOLÊNCIA" text="A agressão física nunca é o primeiro sinal no ciclo da violência
+                doméstica, abaixo segue alguns depoimentos de pessoas alvo de 
+                agressões. Visando que motive as vítimas a denunciarem seus 
+                agressores."/>
                 <div className="cards">
                     <Card text="Relato 1" phase="Nunca tive problemas financeiros antes de me envolver com um parasita sociopata." relato="Nunca tive problemas financeiros antes de me envolver com um parasita sociopata.
 
