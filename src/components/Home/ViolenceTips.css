@@ -53,3 +53,16 @@
    justify-content: space-between;
    margin-left: 15%;
 }
+
+.linkto{
+    width: 30%;
+    margin-top: 50px;
+}
+.linkto button{
+    width: 100%;
+    font-size: 22px;
+    background-color: #9088f2;
+    color: white;
+    border-radius: 80px;
+    border: none;
+}

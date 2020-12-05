@@ -9,6 +9,15 @@
     width: 50%;
 }
 
+.form-relato input{
+    color: white;
+    border-radius: 5px;
+}
+
+.form-relatar textarea{
+    width: 100%;
+}
+
 .dados-pessoais{
     display: flex;
     justify-content: space-between;
@@ -34,4 +43,8 @@
 
 .chbox-form p{
     color: #9088f2
+}
+
+.table-json{
+    margin-top: 10%;
 }

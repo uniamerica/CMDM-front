@@ -1,5 +1,7 @@
 import React from 'react'
 import './ViolenceTips.css'
+import {Link} from 'react-router-dom'
+import { Button } from '@material-ui/core';
 
 
 function ViolenceTips(){
@@ -80,7 +82,8 @@ function ViolenceTips(){
                                     </div>
                 </div>
         
-            
+            <Link className="linkto" to="/Definition"><button><h3>O QUE É VIOLÊNCIA DOMÉSTICA?</h3></button></Link>
+            <p>Acesse a página clicando no botão acima para mais infomações sobre violência doméstica!</p>
     
 </div>
     );

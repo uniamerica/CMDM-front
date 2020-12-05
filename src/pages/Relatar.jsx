@@ -73,7 +73,7 @@ function Relatar(){
                 </div>    
             </form>
 
-            <table>
+            <table className="table-json">
                 <thead>
                     <tr>
                         <th>Nome</th>

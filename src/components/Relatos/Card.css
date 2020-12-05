@@ -3,11 +3,11 @@
     justify-content: space-between;
     width: 65%;
     padding-bottom: 1cm;
+    margin: 2% 0%;
 }
 
 .card{
-    margin-top: 2cm;
-    width: 320px;
+    width: 95%;
     border-style: solid;
     border-color: gainsboro;
     border-width: 1px;
@@ -30,7 +30,7 @@
 }
 
 .card-body{
-    margin-left: 21px;
+    margin: 0% 1%;
     padding: 12px;
     background: white;
 }
