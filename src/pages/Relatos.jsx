@@ -3,7 +3,6 @@ import Header from '../components/Header/Header'
 import Titulo from '../components/Relatos/Titulo'
 import '../components/Relatos/Relatos.css'
 import Card from '../components/Relatos/Card'
-import Footer from '../components/Footer/Footer'
 
 function Relatos(){
     return(

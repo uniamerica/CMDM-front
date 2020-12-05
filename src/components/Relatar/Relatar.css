@@ -1,0 +1,30 @@
+.relatar-page{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-relato{
+    width: 50%;
+}
+
+.dados-pessoais{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5cm;
+}
+
+.form-nome{
+    height: 40px;
+}
+
+.form-email{
+    height: 40px;
+    width: 60%;
+}
+
+.ulteste{
+    display: flex;
+    flex-direction: column;
+}
