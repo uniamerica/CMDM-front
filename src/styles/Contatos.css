@@ -4,8 +4,11 @@
     padding: 20px;
     margin: 0px 105px;
     padding: 0pc 15px;
-    margin-left: 0;
+    margin-left: 5%;
     flex-direction: column;
+}
+h1{
+    color: purple;
 }
 .telefones{
     width: 20%;

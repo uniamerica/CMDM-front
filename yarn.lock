@@ -8873,6 +8873,11 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-css-collapse@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-css-collapse/-/react-css-collapse-4.1.0.tgz#6cf837a4d035e5b9e5c2eff622f8bbaab8c06739"
+  integrity sha512-t9UNdEShbqbnsgfaejvgY7ghJXP42CBobuItfrccc4KKA8JsbQ4id6rmh2wdmU+QDMS3L4vg8/yTkjGmpyMa4g==
+
 react-dev-utils@^10.2.1:
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.1.tgz#f6de325ae25fa4d546d09df4bb1befdc6dd19c19"
