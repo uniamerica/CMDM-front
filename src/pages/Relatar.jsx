@@ -3,7 +3,7 @@ import Header from '../components/Header/Header'
 import { useState } from 'react'
 import '../components/Relatar/Relatar.css'
 import listRelatos from '../components/Relatar/data/Relatar.json'
-import Table from 'react-bootstrap/Table'
+
 
 function Relatar(){
 
@@ -68,7 +68,7 @@ function Relatar(){
                 
             </form>
 
-            <Table striped bordered hover>
+            <table>
                 <thead>
                     <tr>
                         <th>Nome</th>
@@ -83,7 +83,7 @@ function Relatar(){
                     </tr>
                     )}
                 </tbody>
-            </Table>
+            </table>
         </div>
     )
 }
