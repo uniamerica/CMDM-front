@@ -12,19 +12,26 @@
 .dados-pessoais{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.5cm;
-}
-
-.form-nome{
-    height: 40px;
+    margin-bottom: 0.8cm;
 }
 
 .form-email{
-    height: 40px;
     width: 60%;
 }
 
-.ulteste{
+.inpt{
+    height: 20px;
+}
+
+.chbox-form{
     display: flex;
-    flex-direction: column;
+}
+
+.chbox-form input{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.chbox-form p{
+    color: #9088f2
 }
