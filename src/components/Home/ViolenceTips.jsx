@@ -14,11 +14,11 @@ function ViolenceTips(){
                         <div>
                         <h3 > VIOLÊNCIA PSICOLÓGICA:</h3>
                             <ul className= "Tipos-Violência">
-                                <li>- Humilhaçõe</li>
-                                <li>- Ameaça</li>
-                                <li>- Chantagen</li>
-                                <li>- Perseguiçõe</li>
-                                <li>- Controle de vida socia</li>
+                                <li>- Humilhações</li>
+                                <li>- Ameaças</li>
+                                <li>- Chantagens</li>
+                                <li>- Perseguições</li>
+                                <li>- Controle de vida social</li>
                                 
                             </ul>
                         </div>
@@ -29,7 +29,6 @@ function ViolenceTips(){
                                 <li><strong></strong>- Sexo forçado</li>
                                 <li><strong></strong>- Sexo forçado com outras pessoas</li>
                                 <li><strong></strong>- Impedir o uso do método contraceptivo</li>
-                                <li><strong></strong>- Forçar uma gravidez</li>
                                 <li><strong></strong>- Obrigar a ver pornografia</li>
                                 <li><strong></strong>- Sexo em troca de dinheiro ou bens</li>
                                 <li><strong></strong>- Forçar um aborto</li>
@@ -56,6 +55,7 @@ function ViolenceTips(){
                                 <li><strong></strong>- Torturas</li>
                                 <li><strong></strong>- Feminicídios</li>
                                 <li><strong></strong>- Socos</li>
+                                <li><strong></strong>- Empurrões</li>
                                 <li><strong></strong>- Apertar o pescoço</li>
                                 <li><strong></strong>- Agressões com armas e outros objetos</li> 
                             </ul>
@@ -66,7 +66,7 @@ function ViolenceTips(){
                                 <div>
                                     <h3>VIOLÊNCIA VIRTUAL:</h3>
                                     <ul className= "Tipos-Violência">
-                                        <li><strong></strong>- Divulgar/compartilhar fotos e vídeos intimos pela internet e/ ou redes sociais,<br/> sem autorização da mulher, com o propósito de humilhá-la ou chantageá-la.</li>
+                                        <li><strong></strong>- Divulgar/compartilhar fotos e vídeos intímos pela internet e/ ou redes sociais,<br/> sem autorização da mulher, com o propósito de humilhá-la ou chantageá-la.</li>
                                         <li><strong></strong>- Utilizar redes sociais e celulares para propagar comentários depreciativos em relação <br/> à mulher.</li>
                                     </ul>
                                 </div>
