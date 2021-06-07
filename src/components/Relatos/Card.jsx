@@ -2,12 +2,12 @@ import React from 'react'
 import './Card.css'
 import Popup from 'reactjs-popup'
 
-function Card(props){
+function Card(props) {
     var title = props.text
     var description = props.phase
     var text = props.relato
-    return(
-        
+    return (
+
         <div className="cards">
             <div className="card">
                 <div className="card-header">
@@ -37,8 +37,8 @@ function Card(props){
                 </div>
             </div>
         </div>
-        
-        
+
+
     )
 }
 

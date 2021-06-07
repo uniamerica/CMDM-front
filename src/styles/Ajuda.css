@@ -1,9 +1,9 @@
-body{
+body {
     background: #f5f8fa;
 }
 
 
-.ajuda h1{
+.ajuda h1 {
     font-family: Roboto, sans-serif;
     font-size: 35px;
     font-weight: 100;
@@ -12,32 +12,32 @@ body{
     margin-bottom: 1cm;
 }
 
-.cntaj{
+.cntaj {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0cm 2.5cm;
 }
 
-.cntaj p{
+.cntaj p {
     font-family: Roboto, sans-serif;
     font-size: 15px;
     color: #3d2963;
     margin-bottom: 0.8cm;
 }
 
-.cntaj ul{
+.cntaj ul {
     display: flex;
     flex-direction: column;
     margin-bottom: 0.8cm;
 }
 
-.cntaj ul li{
+.cntaj ul li {
     list-style-type: disc;
     list-style-position: inside;
     margin-left: 2cm;
 }
 
-p{
+p {
     padding: 0px !important;
 }

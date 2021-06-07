@@ -1,86 +1,100 @@
-.fotoIcon{
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
+.fotoIcon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 
 }
+
 .BlocoMensagem {
-	padding: 10px 10px;
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: column;
-	align-self: flex-end;
-	color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-self: flex-end;
+    color: #fff;
 }
+
 .mensagemAlinhada {
-	display: inline-flex;
+    display: inline-flex;
 }
+
 .mensagemAlinhada.rev {
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
-.mensagens{
-	min-width: 100px;
-	max-width: 100%;
-	padding: 16px 20px;
-	margin: 8px 10px;
-	background-color: #FAEFFA;
-	border-radius: 16px 16px 0 16px;	
-	flex: end; 
+
+.mensagens {
+    min-width: 100px;
+    max-width: 100%;
+    padding: 16px 20px;
+    margin: 8px 10px;
+    background-color: #FAEFFA;
+    border-radius: 16px 16px 0 16px;
+    flex: end;
 }
+
 .box {
-  flex-direction: column;
-  align-items: flex-start;
-  width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
 }
-.mensagemEnviada{
-	min-width: 80px;
-	max-width: 750px;
-	padding: 14px 18px;
-	margin: 6px 8px;
-	background-color: #C871C8;
-	border-radius: 16px 16px 0 16px;	 
+
+.mensagemEnviada {
+    min-width: 80px;
+    max-width: 750px;
+    padding: 14px 18px;
+    margin: 6px 8px;
+    background-color: #C871C8;
+    border-radius: 16px 16px 0 16px;
 }
+
 .mensagemRecebida {
-	min-width: 60px;
-	max-width: 700px;
-	padding: 14px 18px;
-	margin: 6px 8px;
-	background-color: #9C3CC0;
-	border-radius: 16px 16px 16px 0;	  
+    min-width: 60px;
+    max-width: 700px;
+    padding: 14px 18px;
+    margin: 6px 8px;
+    background-color: #9C3CC0;
+    border-radius: 16px 16px 16px 0;
 }
+
 .rev {
-	align-self: flex-end;
+    align-self: flex-end;
 }
+
 .rec {
-	align-self: flex-start;
+    align-self: flex-start;
 }
-span.rev, span.rec{
-	font-size: 14px;
-	color: grey;
+
+span.rev, span.rec {
+    font-size: 14px;
+    color: grey;
 }
-input[type=submit]{
-  background-color: #460B5B;
-  color: #ccc;
-  padding: 16px 32px;
-  border-radius: 100px;
-  width: 10%;
+
+input[type=submit] {
+    background-color: #460B5B;
+    color: #ccc;
+    padding: 16px 32px;
+    border-radius: 100px;
+    width: 10%;
 }
-.enviar{
-	display: block;
-	align-self: flex-end;
-	width:100%;
+
+.enviar {
+    display: block;
+    align-self: flex-end;
+    width: 100%;
 
 }
-input[type=submit]:hover{
-	background-color: #9C3CC0;
+
+input[type=submit]:hover {
+    background-color: #9C3CC0;
 }
+
 .textarea {
-  width: 1100px;
-  height: 35px;
-  padding: 8px 16px;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  background-color: #f8f8f8;
-  resize: none;
-  text-align: left;
+    width: 1100px;
+    height: 35px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+    resize: none;
+    text-align: left;
 }
