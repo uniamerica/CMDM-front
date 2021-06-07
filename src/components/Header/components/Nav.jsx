@@ -6,8 +6,8 @@ import '../components/Nav.css'
 function Nav() {
   return (
     <nav>
-        <ul>
-            <li className="links">
+        <ul className="links">
+            <li >
                 <Link className="each-link" to="/Home">Home</Link>
             </li>
             <li>
@@ -22,7 +22,9 @@ function Nav() {
             <li>
                 <Link className="each-link" to="/Contatos">Contato</Link>
             </li>
-        
+            <li>
+                <Link className="each-link" >Atendimento</Link>
+            </li>
         </ul>
     </nav>
   );
