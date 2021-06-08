@@ -92,6 +92,7 @@ function Relatar() {
                 )}
                 </tbody>
             </table>
+            
         </div>
     )
 }

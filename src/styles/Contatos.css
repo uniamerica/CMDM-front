@@ -31,12 +31,6 @@ i {
     color: rebeccapurple;
 }
 
-.check {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-}
-
 .ulContato {
     margin-top: 20%;
     height: 100px;
