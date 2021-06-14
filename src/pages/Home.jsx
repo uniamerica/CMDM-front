@@ -4,12 +4,12 @@ import Header from '../components/Header/Header'
 import ViolenceTips from '../components/Home/ViolenceTips'
 
 
-function Home() {
-    return (
+function Home(){
+    return(
         <div>
-            <Header/>
-            <ImgHome/>
-            <ViolenceTips/>
+          <Header/>
+          <ImgHome/>  
+          <ViolenceTips/>    
         </div>
     );
 }
