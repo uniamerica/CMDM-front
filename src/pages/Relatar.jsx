@@ -1,19 +1,19 @@
 import React from 'react'
 import Header from '../components/Header/Header'
 import Titulo from '../components/Relatos/Titulo'
-import {useState} from 'react'
+import { useState } from 'react'
 import '../components/Relatar/Relatar.css'
 import listRelatos from '../components/Relatar/data/Relatar.json'
 
 
-function Relatar() {
-    /*variaveis*/
+function Relatar(){
+
     const [nome, setNome] = useState("")
     const [email, setEmail] = useState("")
     const [relato, setRelato] = useState("")
     const [relatos, setRelatos] = useState(listRelatos)
 
-    function handleSubmit(e) {
+    function handleSubmit(e){
 
         const novoRelato = {
             nome: nome,
@@ -24,25 +24,24 @@ function Relatar() {
         setRelatos([...relatos, novoRelato])
 
         e.preventDefault()
-
+        
         console.log(relatos)
-    }
+    } 
 
     const handleChangeTitulo = (e) => {
         setNome(e.target.value);
     }
-
     
     const handleChangeDescricao = (e) => {
         setEmail(e.target.value);
-    }
+    } 
 
     const handleChangeRelato = (e) => {
         setRelato(e.target.value);
     }
 
 
-    return (
+    return(
         <div>
             <Header/>
             <Titulo titulo="COMPARTILHE SUA EXPERIÊNCIA" text="Compartilhe sua experiência para que,
@@ -65,12 +64,11 @@ function Relatar() {
                         </label>
                         <div className="chbox-form">
                             <input type="checkbox"/>
-                            <p>Publicar relato anonimamente (Se essa opção estiver marcada, seus dados pessoais não
-                                serão publicados junto ao relato).</p>
+                            <p>Publicar relato anonimamente (Se essa opção estiver marcada, seus dados pessoais não serão publicados junto ao relato).</p>
                         </div>
                         <input type="submit"/>
                     </div>
-                </div>
+                </div>    
             </form>
 
         </div>

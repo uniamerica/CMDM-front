@@ -1,25 +1,21 @@
 
-
 ul{
     display: flex;
     justify-content: space-between;
     margin-right: 2cm;
 }
-
-li {
+li{
     list-style-type: none;
 }
 
 .active-link {
     color: black;
 }
-
 .links{
     text-decoration: none;
     width: 10;
 }
-
-.each-link {
+.each-link{
     text-decoration: none;
     color: grey;
     margin-left: 15px;

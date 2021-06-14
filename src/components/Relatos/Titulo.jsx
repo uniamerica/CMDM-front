@@ -1,12 +1,12 @@
 import React from 'react'
 import './Titulo.css'
 
-function Titulo(props) {
+function Titulo(props){
 
     var titulo = props.titulo
     var text = props.text
 
-    return (
+    return(
         <div className="global">
             <div className="titulo">
                 <h1>{titulo}</h1>
