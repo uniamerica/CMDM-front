@@ -4,8 +4,8 @@ import Titulo from '../components/Relatos/Titulo'
 import '../components/Relatos/Relatos.css'
 import Card from '../components/Relatos/Card'
 
-function Relatos(){
-    return(
+function Relatos() {
+    return (
         <div>
             <Header/>
             <div className="container1">
@@ -14,7 +14,9 @@ function Relatos(){
                 agressões. Visando que motive as vítimas a denunciarem seus 
                 agressores."/>
                 <div className="cards">
-                    <Card text="Relato 1" phase="Nunca tive problemas financeiros antes de me envolver com um parasita sociopata." relato="Nunca tive problemas financeiros antes de me envolver com um parasita sociopata.
+                    <Card text="Relato 1"
+                          phase="Nunca tive problemas financeiros antes de me envolver com um parasita sociopata."
+                          relato="Nunca tive problemas financeiros antes de me envolver com um parasita sociopata.
 
                     Deixei tudo para trás acreditando que poderia seguir minha vida novamente, construí do zero tudo de novo. A realidade foi outra, fui ridicularizada, considerada louca, todas as portas se fecharam para mim. Não consegui provar o que acontecia dentro de minha casa, e ele era tão profissional, tão convincente.
 
@@ -52,7 +54,9 @@ function Relatos(){
                     Hoje eu paro e penso a mim mesma... Não está nada bem."/>
 
 
-                    <Card text="Relato 3" phase="Depois de 1 ano de divorcio do meu primeiro casamento, conheci um homem pelo qual me apaixonei." relato="
+                    <Card text="Relato 3"
+                          phase="Depois de 1 ano de divorcio do meu primeiro casamento, conheci um homem pelo qual me apaixonei."
+                          relato="
                     Depois de 1 ano de divorcio do meu primeiro casamento, conheci um homem pelo qual me apaixonei.
 
                     Já no começo do nosso relacionamento, ele começou a me agredir com palavras, ouvia ele me chamando de tantos nomes. Achei que eu era forte, mas estava enganada. Depois que estávamos morando juntos, começaram as agressões físicas, primeiro tentei me defender sozinha, mas depois procurei a delegacia, onde me orientaram a sair de casa, mas depois de um tempo voltei a morar com ele.
@@ -64,7 +68,7 @@ function Relatos(){
                     Deixo uma mensagem a todas as mulheres que estão sendo agredidas... denuncie, não adianta você perdoar. Eles não mudam, e não vão parar de agredi-las. Não acredite nas promessas deles."/>
                 </div>
             </div>
-            
+
         </div>
     )
 }

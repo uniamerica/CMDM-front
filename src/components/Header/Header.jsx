@@ -6,12 +6,12 @@ import '../Header/Header.css'
 
 
 function Header() {
-  return (
-  	<div className="mainheader">
-        <Logo/>
-        <Nav/>
-    </div>
-  );
+    return (
+        <div className="mainheader">
+            <Logo/>
+            <Nav/>
+        </div>
+    );
 }
 
 export default Header;

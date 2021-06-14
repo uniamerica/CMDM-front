@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Switch, Route} from 'react-router-dom';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Ajuda from './pages/Ajuda.jsx';
 import Home from './pages/Home.jsx';
 import Social from './pages/Social.jsx';
@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer.jsx';
 import Login from './pages/Login.jsx';
 
 function App() {
+
   return (
     <div>
       <BrowserRouter>

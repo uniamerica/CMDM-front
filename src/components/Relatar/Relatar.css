@@ -1,50 +1,50 @@
-.relatar-page{
+.relatar-page {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.form-relato{
+.form-relato {
     width: 50%;
 }
 
-.form-relato input{
+.form-nome input {
     color: white;
     border-radius: 5px;
 }
 
-.form-relatar textarea{
+.form-relatar textarea {
     width: 100%;
 }
 
-.dados-pessoais{
+.dados-pessoais {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.8cm;
 }
 
-.form-email{
+.form-email {
     width: 60%;
 }
 
-.inpt{
+.inpt {
     height: 20px;
 }
 
-.chbox-form{
+.chbox-form {
     display: flex;
 }
 
-.chbox-form input{
+.chbox-form input {
     margin-top: 20px;
     margin-right: 10px;
 }
 
-.chbox-form p{
+.chbox-form p {
     color: #9088f2
 }
 
-.table-json{
+.table-json {
     margin-top: 10%;
 }
