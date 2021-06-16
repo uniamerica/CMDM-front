@@ -23,7 +23,7 @@ function Nav() {
                 <Link className="each-link" to="/Contatos">Contato</Link>
             </li>
             <li>
-                <Link className="each-link" >Atendimento</Link>
+                <Link className="each-link login-button" to="/login">Login</Link>
             </li>
         </ul>
     </nav>

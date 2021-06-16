@@ -23,4 +23,7 @@ li{
 .each-link:hover {
     color: rgb(110, 64, 131);
 }
+.login-button{
+    color: purple;
+}
 
