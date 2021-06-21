@@ -22,7 +22,8 @@ export default function Login() {
     e.preventDefault()
 
     api.post("/login", login).then((response) => {
-        history.push('/')
+      console.log(response.headers.authorization)  
+      history.push('/')
     })
 
     console.log(login);
@@ -61,7 +62,7 @@ export default function Login() {
             required
           />
           <br />
-          <span className={"psw"}><Link  to={Login}>Esqueci minha senha</Link></span>
+          {/* <span className={"psw"}><Link  to={Login}>Esqueci minha senha</Link></span> */}
           <button type="submit">Login</button>
         </form>
       </div>
