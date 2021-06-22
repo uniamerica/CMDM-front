@@ -1,7 +1,6 @@
 import React from 'react'
 import './ViolenceTips.css'
 import {Link} from 'react-router-dom'
-import { Button } from '@material-ui/core';
 
 
 function ViolenceTips(){

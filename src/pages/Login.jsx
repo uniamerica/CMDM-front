@@ -1,19 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 
 import Header from "../components/Header/Header";
 import Titulo from "../components/Relatos/Titulo";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/Login.css";
 
-import api from '../api/api'
+import { Context } from  '../Context/AuthContext'
 
 export default function Login() {
+  
+  const { authenticated, handleLogin } = useContext(Context)
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const history = useHistory()
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     const login = {
       username: email,
       password: password,
@@ -21,12 +22,13 @@ export default function Login() {
 
     e.preventDefault()
 
-    api.post("/login", login).then((response) => {
-      console.log(response.headers.authorization)  
-      history.push('/')
-    })
+    console.log('Login', authenticated)
+    
+    // api.post("/login", login).then((response) => {
+    //   console.log(response.headers.authorization)  
+    //   history.push('/')
+    // })
 
-    console.log(login);
   }
 
   const handleChangeEmail = (e) => {
@@ -37,6 +39,8 @@ export default function Login() {
     setPassword(e.target.value);
   };
 
+  console.debug("Login", authenticated)
+
   return (
     <div className="login">
       <Header />
@@ -45,7 +49,7 @@ export default function Login() {
       </center>
       <div className="login2">
         <form method="post" onSubmit={handleSubmit}>
-          <input
+          {/* <input
             id="username"
             onChange={handleChangeEmail}
             name="usuario"
@@ -62,8 +66,8 @@ export default function Login() {
             required
           />
           <br />
-          {/* <span className={"psw"}><Link  to={Login}>Esqueci minha senha</Link></span> */}
-          <button type="submit">Login</button>
+          <span className={"psw"}><Link  to={Login}>Esqueci minha senha</Link></span> */}
+          <button type="button" onClick={handleLogin}>Login</button>
         </form>
       </div>
     </div>
