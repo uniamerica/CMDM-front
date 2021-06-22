@@ -14,20 +14,13 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  async function handleSubmit(e) {
+  function handleSubmit(e) {
     const login = {
       username: email,
       password: password,
     };
 
     e.preventDefault()
-
-    console.log('Login', authenticated)
-    
-    // api.post("/login", login).then((response) => {
-    //   console.log(response.headers.authorization)  
-    //   history.push('/')
-    // })
 
   }
 

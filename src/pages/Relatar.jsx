@@ -3,37 +3,36 @@ import Header from '../components/Header/Header'
 import Titulo from '../components/Relatos/Titulo'
 import { useState } from 'react'
 import '../components/Relatar/Relatar.css'
-import listRelatos from '../components/Relatar/data/Relatar.json'
+
+import api from '../api/api'
 
 
 function Relatar(){
 
-    const [nome, setNome] = useState("")
-    const [email, setEmail] = useState("")
+    const [titulo, setTitulo] = useState("")
+    const [descricao, setDescricao] = useState("")
     const [relato, setRelato] = useState("")
-    const [relatos, setRelatos] = useState(listRelatos)
 
     function handleSubmit(e){
 
         const novoRelato = {
-            nome: nome,
-            email: email,
-            relato: relato
+            titulo: titulo,
+            descricao: descricao,
+            depoimento: relato
         }
 
-        setRelatos([...relatos, novoRelato])
+        api.post('/relatos', novoRelato)
 
-        e.preventDefault()
+        // e.preventDefault()
         
-        console.log(relatos)
     } 
 
     const handleChangeTitulo = (e) => {
-        setNome(e.target.value);
+        setTitulo(e.target.value);
     }
     
     const handleChangeDescricao = (e) => {
-        setEmail(e.target.value);
+        setDescricao(e.target.value);
     } 
 
     const handleChangeRelato = (e) => {
@@ -52,11 +51,11 @@ function Relatar(){
                     <div className="form-relato">
                         <label className="form-nome inpt">
                             Titulo:
-                            <input id="nome" type="text" onChange={handleChangeTitulo} value={nome}/>
+                            <input id="titulo" type="text" onChange={handleChangeTitulo} value={titulo}/>
                         </label>
                         <label className="form-email inpt">
                             Descrição:
-                            <input id="e-mail" type="text" onChange={handleChangeDescricao} value={email}/>
+                            <input id="descricao" type="text" onChange={handleChangeDescricao} value={descricao}/>
                         </label>
                         <label className="form-relatar">
                             Relato:
