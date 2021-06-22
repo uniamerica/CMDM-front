@@ -22,27 +22,30 @@ function AuthProvider({ children }) {
     }, [])
 
     async function handleLogin() {
-        const { token } = await api.post("/login", {
+        await api.post("/login", {
             username: "lucas",
             password: "password"
+        }).then((response) => {
+            const token = response.headers.authorization
+            localStorage.setItem('token', JSON.stringify(token))
+            api.defaults.headers.Authorization = `Bearer ${token}`
+            history.push("/home")
+            setAuthenticated(true)
         })
-
-        localStorage.setItem('token', JSON.stringify(token))
-        api.defaults.headers.Authorization = `Bearer ${token}`
-        history.push("/home")
-        setAuthenticated(true)
     }
 
     function handleLogout() {
-        setAuthenticated(true)
+        setAuthenticated(false)
         localStorage.removeItem('token')
         api.defaults.headers.Authorization = undefined
         history.push("/login")
     }
 
-    // if (loading) {
-    //     return
-    // }
+    if (loading) {
+        return (
+            <h1>Loading...</h1>
+        )
+    }
 
     return (
         <Context.Provider value={{ authenticated, handleLogin, handleLogout }}>
