@@ -1,17 +1,11 @@
-.cards{
-    display: flex;
-    justify-content: space-between;
-    width: 65%;
-    padding-bottom: 1cm;
-    margin: 2% 0%;
-}
 
 .card{
-    width: 95%;
+    min-width: 350px;
     border-style: solid;
     border-color: gainsboro;
     border-width: 1px;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 .card-header{
@@ -45,11 +39,13 @@
 
 .popup-btn{
     background-color: #3d2963;
-    padding: 6px 12px;
+    padding: 6px 10px;
     font-family: Roboto, sans-serif;
     color: white;
     border: none;
     border-radius: 5px;
+    width: 100px;
+    margin: 0;
 }
 
 .popup{
@@ -91,12 +87,9 @@
     margin: 20px;
 }
 
-.modal{
-    display: flex;
-    justify-content: flex-end;
-}
-
 .modal button{
     margin: 10px;
 }
+
+
 

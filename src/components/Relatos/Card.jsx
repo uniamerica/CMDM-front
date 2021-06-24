@@ -8,7 +8,6 @@ function Card(props){
     var text = props.relato
     return(
         
-        <div className="cards">
             <div className="card">
                 <div className="card-header">
                     <h2>{title}</h2>
@@ -36,7 +35,6 @@ function Card(props){
                     </Popup>
                 </div>
             </div>
-        </div>
         
         
     )
