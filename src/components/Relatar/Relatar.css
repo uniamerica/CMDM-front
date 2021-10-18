@@ -10,8 +10,9 @@
 }
 
 .form-relato input{
-    color: black;
-    border-radius: 5px;
+    color: white;
+    border-radius: 5;
+    margin-bottom: 10px;
 }
 
 .form-relatar textarea{

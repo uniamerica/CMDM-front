@@ -24,9 +24,9 @@ function AuthProvider({ children }) {
     async function handleLogin() {
         await api.post("/login", {
             username: "lucas",
-            password: "password"
+            password: "1234"
         }).then((response) => {
-            const token = response.headers.authorization
+            const token = response.data.access_token
             localStorage.setItem('token', JSON.stringify(token))
             api.defaults.headers.Authorization = `Bearer ${token}`
             history.push("/home")
