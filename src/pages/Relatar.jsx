@@ -67,7 +67,7 @@ function Relatar(){
                             <input type="checkbox"/>
                             <p>Publicar relato anonimamente (Se essa opção estiver marcada, seus dados pessoais não serão publicados junto ao relato).</p>
                         </div>
-                        <input className="submit-btn" type="submit"/>
+                        <input id="sumbit" className="submit-btn" type="submit"/>
                     </div>
                 </div>    
             </form>

@@ -11,8 +11,11 @@ import Definition from './pages/Definition.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Login from './pages/Login.jsx';
 import Admin from './pages/Admin.jsx'
+import RecSenha from "./pages/RecSenha";
+import Cadstro from './pages/Cadastro';
 
-import { AuthProvider } from './Context/AuthContext'
+import { AuthProvider } from './Context/AuthContext';
+
 
 
 function App() {
@@ -29,8 +32,11 @@ function App() {
             <Route path="/Relatar" component={Relatar}/>
             <Route path="/Contatos"  component={Contatos}/>
             <Route path="/Definition"  component={Definition}/>
+            <Route path="/RecSenha" component={RecSenha}/>
             <Route path="/Login" component={Login}/>
             <Route path="/Admin" component={Admin}/>
+            <Route path="/Cadastro" component={Cadstro}/>
+
           </Switch>
         </AuthProvider> 
       </BrowserRouter>
