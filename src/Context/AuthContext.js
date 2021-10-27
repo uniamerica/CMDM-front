@@ -11,7 +11,7 @@ function AuthProvider({ children }) {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        const token = localStorage.getItem('token')
+        const token = localStorage.getItem('@CMDM:token')
 
         if (token) {
             api.defaults.headers.Authorization = `Bearer ${JSON.parse(token)}`
@@ -21,13 +21,13 @@ function AuthProvider({ children }) {
         setLoading(false)
     }, [])
 
-    async function handleLogin() {
+    async function handleLogin(user) {
         await api.post("/login", {
-            username: "lucas",
-            password: "password"
+            username: user.username,
+            password: user.password
         }).then((response) => {
-            const token = response.headers.authorization
-            localStorage.setItem('token', JSON.stringify(token))
+            const token = response.data.access_token
+            localStorage.setItem('@CMDM:token', JSON.stringify(token))
             api.defaults.headers.Authorization = `Bearer ${token}`
             history.push("/home")
             setAuthenticated(true)
@@ -36,7 +36,7 @@ function AuthProvider({ children }) {
 
     function handleLogout() {
         setAuthenticated(false)
-        localStorage.removeItem('token')
+        localStorage.removeItem('@CMDM:token')
         api.defaults.headers.Authorization = undefined
         history.push("/login")
     }

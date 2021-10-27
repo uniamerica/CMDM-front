@@ -6,26 +6,26 @@ import { Link } from "react-router-dom";
 import "../styles/Login.css";
 
 import { Context } from  '../Context/AuthContext'
+import Home from "./Home";
 
 export default function Login() {
   
   const { authenticated, handleLogin } = useContext(Context)
 
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   function handleSubmit(e) {
     const login = {
-      username: email,
+      username: username,
       password: password,
     };
-
     e.preventDefault()
-
+    handleLogin(login);
   }
 
   const handleChangeEmail = (e) => {
-    setEmail(e.target.value);
+    setUsername(e.target.value);
   };
 
   const handleChangePassword = (e) => {
@@ -42,25 +42,25 @@ export default function Login() {
       </center>
       <div className="login2">
         <form method="post" onSubmit={handleSubmit}>
-          {/* <input
+          <input
             id="username"
             onChange={handleChangeEmail}
-            name="usuario"
+            name="username"
             type="text"
-            placeholder="email@email.com"
+            placeholder="Jãozinho123"
             required
           />
           <input
             id="password"
             onChange={handleChangePassword}
             type="password"
-            name="senha"
+            name="password"
             placeholder="*********"
             required
           />
           <br />
-          <span className={"psw"}><Link  to={Login}>Esqueci minha senha</Link></span> */}
-          <button type="button" onClick={handleLogin}>Login</button>
+          <span className={"psw"}><Link  to={Home}>Esqueci minha senha</Link></span>
+          <button type="submit" >Login</button>
         </form>
       </div>
     </div>
