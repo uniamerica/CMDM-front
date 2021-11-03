@@ -3,7 +3,6 @@ import Header from '../components/Header/Header'
 
 import styles from '../styles/Cadastro.module.css'
 import api from '../api/api'
-import Titulo from '../components/Relatos/Titulo'
 
 export default function Cadstro() {
     const [newUser, setNewUser] = useState({})
@@ -50,11 +49,7 @@ export default function Cadstro() {
 
     return (
         <>
-            <Header />
-            {/* <Titulo
-                titulo="Registre-se"
-                text="Faça seu cadastro para ter acesso a todas as funcionalidades da plataforma."
-            /> */}
+            {/* <Header /> */}
             <div className={styles.formCadastro}>
                 <form onSubmit={handleSubmit}>
                     <div className={styles.formField}>
@@ -81,7 +76,7 @@ export default function Cadstro() {
                         <label>Senha</label>
                         <input id="password" type="text" name="password" placeholder="************" value={newUser.password} onChange={handleChangePassword}></input>
                     </div>
-                    <button id="cadastroSubmit" type="submit" className={styles.submit}>Cadastrar-se</button>
+                    <button name="submitButton" id="cadastroSubmit" type="submit" className={styles.submit}>Cadastrar-se</button>
                     <a href="/login">
                         Já tem cadastro?
                     </a>
