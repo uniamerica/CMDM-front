@@ -44,6 +44,7 @@ export default function Login() {
         <form method="post" onSubmit={handleSubmit}>
           <input
             id="username"
+            class="inputLogin"
             onChange={handleChangeEmail}
             name="username"
             type="text"
@@ -52,6 +53,7 @@ export default function Login() {
           />
           <input
             id="password"
+            class="inputLogin"
             onChange={handleChangePassword}
             type="password"
             name="password"

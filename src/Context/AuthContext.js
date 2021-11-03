@@ -31,6 +31,8 @@ function AuthProvider({ children }) {
             api.defaults.headers.Authorization = `Bearer ${token}`
             history.push("/home")
             setAuthenticated(true)
+        }).catch((response) => {
+            console.log(response);
         })
     }
 
