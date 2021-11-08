@@ -8,11 +8,15 @@ import './Cards.css'
 class Cards extends Component {
 
     state = {
-        relatos: []
+        relatos: [],
+        autorizados: [{titulo: "titulo",
+            descricao: "descricao",
+            depoimento: "relato",
+            pendente: false}]
     }
 
     async componentDidMount() {
-        const response = await api.get("/relatos");
+        const response = await api.get("/reports");
 
         this.setState({ relatos: response.data })
     }
@@ -26,7 +30,7 @@ class Cards extends Component {
 
                 <div className="cards-container">
                     {relatos.map((e) => (
-                        <Card text={e.titulo} phase={e.descricao} relato={e.depoimento}/>
+                        <Card key={e.id} text={e.title} phase={e.description} relato={e.depoiment}/>
                     ))}
                 </div>
             </div>
