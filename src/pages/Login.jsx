@@ -62,7 +62,7 @@ export default function Login() {
           />
           <br />
           <span className={"psw"}><Link  to={Home}>Esqueci minha senha</Link></span>
-          <button type="submit" >Login</button>
+          <button type="submit" data-testid='submit'>Login</button>
         </form>
       </div>
     </div>
