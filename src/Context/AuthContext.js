@@ -7,6 +7,7 @@ function AuthProvider({ children }) {
     
     const {authenticated, loading, handleLogin, handleLogout} = useAuth();
 
+
     if (loading) {
         return (
             <h1>Loading...</h1>
