@@ -16,14 +16,16 @@ function Relatar(){
     function handleSubmit(e){
 
         const novoRelato = {
-            titulo: titulo,
-            descricao: descricao,
-            depoimento: relato
+            title: titulo,
+            description: descricao,
+            depoiment: relato,
+            userId: 1
+            // pendente: true
         }
 
-        api.post('/relatos', novoRelato)
+        api.post('/reports', novoRelato)
 
-        // e.preventDefault()
+        e.preventDefault()
         
     } 
 
@@ -65,7 +67,7 @@ function Relatar(){
                             <input type="checkbox"/>
                             <p>Publicar relato anonimamente (Se essa opção estiver marcada, seus dados pessoais não serão publicados junto ao relato).</p>
                         </div>
-                        <input type="submit"/>
+                        <input id="sumbit" className="submit-btn" type="submit"/>
                     </div>
                 </div>    
             </form>
