@@ -32,8 +32,6 @@ export default function Login() {
     setPassword(e.target.value);
   };
 
-  console.debug("Login", authenticated)
-
   return (
     <div className={styles.login}>
       <Header />
@@ -48,7 +46,8 @@ export default function Login() {
             onChange={handleChangeEmail}
             name="username"
             type="text"
-            placeholder="Jãozinho123"
+            data-testid="usernameInput"
+            placeholder="usuario"
             required
           />
           <input
@@ -57,7 +56,8 @@ export default function Login() {
             onChange={handleChangePassword}
             type="password"
             name="password"
-            placeholder="*********"
+            data-testid="passwordInput"
+            placeholder="senha"
             required
           />
           <br />
