@@ -1,21 +1,47 @@
 import React from "react";
-import {render, screen, cleanup} from '@testing-library/react';
+import {render, screen, cleanup, fireEvent} from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import Login from '../../pages/Login';
 import { Context } from  '../../Context/AuthContext'
 import "@testing-library/jest-dom/extend-expect"
+import { MemoryRouter, Router } from "react-router";
 
-let getByTestId;
+let component;
 
 beforeEach(() => {
-  const component = render(<Login />);
-  getByTestId = component.getByTestId;
+  component = render(
+    <MemoryRouter>
+      <Context.Provider value="sim">
+        <Login />
+      </Context.Provider>
+    </MemoryRouter>
+  );
 })
 
-test('should fail on incorrect user', () => {
-  const submitEl = getByTestId("submit");
-  expect(submitEl).toBe("Login");
-});
+test("should have username input and password input",  () => {
+  const usernameInput = component.getByTestId('usernameInput');
+  const passwordInput = component.getByTestId('passwordInput');
+  expect(usernameInput).toBeInTheDocument();
+  expect(passwordInput).toBeInTheDocument();
+})
+
+test("should change inputs when onChange event is fired",  () => {
+  const usernameInput = component.getByTestId('usernameInput');
+  fireEvent.change(usernameInput, {
+    target:{
+      value: "jorge"
+    }
+  })
+  expect(usernameInput.value).toBe("jorge");
+
+  const passwordInput = component.getByTestId('passwordInput');
+  fireEvent.change(passwordInput, {
+    target:{
+      value: "teste123"
+    }
+  })
+  expect(passwordInput.value).toBe("teste123");
+})
 
 
 // test('matches snapshot', () => {
