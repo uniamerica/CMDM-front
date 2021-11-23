@@ -13,6 +13,7 @@ import Login from './pages/Login.jsx';
 import Admin from './pages/Admin.jsx'
 import RecSenha from "./pages/RecSenha";
 import Cadstro from './pages/Cadastro';
+import RecSenha from "./pages/RecSenha";
 
 import { AuthProvider } from './Context/AuthContext';
 
@@ -36,6 +37,7 @@ function App() {
             <Route path="/Login" component={Login}/>
             <Route path="/Admin" component={Admin}/>
             <Route path="/Cadastro" component={Cadstro}/>
+
 
           </Switch>
         </AuthProvider> 
