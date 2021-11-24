@@ -1,0 +1,656 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component should verify if the component had changes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="mainheader"
+        >
+          <div
+            class="logo"
+          >
+            <h2>
+              Conselho Municipal dos Direitos da Mulher
+            </h2>
+          </div>
+          <nav>
+            <ul
+              class="links"
+            >
+              <li>
+                <a
+                  class="each-link"
+                  href="/Home"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  class="each-link"
+                  href="/Relatos"
+                >
+                  Relatos
+                </a>
+              </li>
+              <li>
+                <a
+                  class="each-link"
+                  href="/Relatar"
+                >
+                  Relatar
+                </a>
+              </li>
+              <li>
+                <a
+                  class="each-link"
+                  href="/Ajuda"
+                >
+                  Procurar ajuda
+                </a>
+              </li>
+              <li>
+                <a
+                  class="each-link"
+                  href="/Contatos"
+                >
+                  Contato
+                </a>
+              </li>
+              <li>
+                <a
+                  class="each-link login-button"
+                  href="/login"
+                >
+                  Login
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="home_img"
+        >
+          <img
+            alt="Home page imagem"
+            src="HomeBackground.png"
+          />
+          <div
+            class="effect_phase"
+          >
+            <a>
+              Defenda sua vida, lute por sua independência, busque sua felicidade e aprenda a se amar!
+            </a>
+          </div>
+        </div>
+        <div
+          class="ViolenceTips0"
+        >
+          <h2>
+            <strong>
+               Quais são os tipos de violência doméstica? 
+            </strong>
+          </h2>
+          <p>
+            A violência doméstica pode ser caracterizada de várias formas:
+          </p>
+          <div
+            class="ViolenceTips"
+          >
+            <div>
+              <h3>
+                 VIOLÊNCIA PSICOLÓGICA:
+              </h3>
+              <ul
+                class="Tipos-Violência"
+              >
+                <li>
+                  - Humilhações
+                </li>
+                <li>
+                  - Ameaças
+                </li>
+                <li>
+                  - Chantagens
+                </li>
+                <li>
+                  - Perseguições
+                </li>
+                <li>
+                  - Controle de vida social
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>
+                VIOLÊNCIA SEXUAL:
+              </h3>
+              <ul
+                class="Tipos-Violência"
+              >
+                <li>
+                  <strong />
+                  - Sexo forçado
+                </li>
+                <li>
+                  <strong />
+                  - Sexo forçado com outras pessoas
+                </li>
+                <li>
+                  <strong />
+                  - Impedir o uso do método contraceptivo
+                </li>
+                <li>
+                  <strong />
+                  - Obrigar a ver pornografia
+                </li>
+                <li>
+                  <strong />
+                  - Sexo em troca de dinheiro ou bens
+                </li>
+                <li>
+                  <strong />
+                  - Forçar um aborto
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="ViolenceTips"
+          >
+            <div>
+              <h3>
+                VIOLÊNCIA MORAL:
+              </h3>
+              <ul
+                class="Tipos-Violência"
+              >
+                <li>
+                  <strong />
+                  - Xingamentos
+                </li>
+                <li>
+                  <strong />
+                  - Injurías
+                </li>
+                <li>
+                  <strong />
+                  - Calúnias
+                </li>
+                <li>
+                  <strong />
+                  - Difamações
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>
+                VIOLÊNCIA FÍSICA:
+              </h3>
+              <ul
+                class="Tipos-Violência"
+              >
+                <li>
+                  <strong />
+                  - Tapas
+                </li>
+                <li>
+                  <strong />
+                  - Chutes
+                </li>
+                <li>
+                  <strong />
+                  - Queimaduras
+                </li>
+                <li>
+                  <strong />
+                  - Torturas
+                </li>
+                <li>
+                  <strong />
+                  - Feminicídios
+                </li>
+                <li>
+                  <strong />
+                  - Socos
+                </li>
+                <li>
+                  <strong />
+                  - Empurrões
+                </li>
+                <li>
+                  <strong />
+                  - Apertar o pescoço
+                </li>
+                <li>
+                  <strong />
+                  - Agressões com armas e outros objetos
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="ViolenceTips"
+          >
+            <div>
+              <h3>
+                VIOLÊNCIA VIRTUAL:
+              </h3>
+              <ul
+                class="Tipos-Violência"
+              >
+                <li>
+                  <strong />
+                  - Divulgar/compartilhar fotos e vídeos intímos pela internet e/ ou redes sociais,
+                  <br />
+                   sem autorização da mulher, com o propósito de humilhá-la ou chantageá-la.
+                </li>
+                <li>
+                  <strong />
+                  - Utilizar redes sociais e celulares para propagar comentários depreciativos em relação 
+                  <br />
+                   à mulher.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>
+                VIOLÊNCIA PATRIMONIAL:
+              </h3>
+              <ul
+                class="Tipos-Violência"
+              >
+                <li>
+                  <strong />
+                  - Quebrar celulares e objetos pessoais
+                </li>
+                <li>
+                  <strong />
+                  - Rasgar fotos
+                </li>
+                <li>
+                  <strong />
+                  - Quebrar móveis
+                </li>
+                <li>
+                  <strong />
+                  - Rasgar roupas
+                </li>
+                <li>
+                  <strong />
+                  - Estragar objetos de trabalho
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a
+            class="linkto"
+            href="/Definition"
+          >
+            <button>
+              <h3>
+                O QUE É VIOLÊNCIA DOMÉSTICA?
+              </h3>
+            </button>
+          </a>
+          <p>
+            Acesse a página clicando no botão acima para mais infomações sobre violência doméstica!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="mainheader"
+      >
+        <div
+          class="logo"
+        >
+          <h2>
+            Conselho Municipal dos Direitos da Mulher
+          </h2>
+        </div>
+        <nav>
+          <ul
+            class="links"
+          >
+            <li>
+              <a
+                class="each-link"
+                href="/Home"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                class="each-link"
+                href="/Relatos"
+              >
+                Relatos
+              </a>
+            </li>
+            <li>
+              <a
+                class="each-link"
+                href="/Relatar"
+              >
+                Relatar
+              </a>
+            </li>
+            <li>
+              <a
+                class="each-link"
+                href="/Ajuda"
+              >
+                Procurar ajuda
+              </a>
+            </li>
+            <li>
+              <a
+                class="each-link"
+                href="/Contatos"
+              >
+                Contato
+              </a>
+            </li>
+            <li>
+              <a
+                class="each-link login-button"
+                href="/login"
+              >
+                Login
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div
+        class="home_img"
+      >
+        <img
+          alt="Home page imagem"
+          src="HomeBackground.png"
+        />
+        <div
+          class="effect_phase"
+        >
+          <a>
+            Defenda sua vida, lute por sua independência, busque sua felicidade e aprenda a se amar!
+          </a>
+        </div>
+      </div>
+      <div
+        class="ViolenceTips0"
+      >
+        <h2>
+          <strong>
+             Quais são os tipos de violência doméstica? 
+          </strong>
+        </h2>
+        <p>
+          A violência doméstica pode ser caracterizada de várias formas:
+        </p>
+        <div
+          class="ViolenceTips"
+        >
+          <div>
+            <h3>
+               VIOLÊNCIA PSICOLÓGICA:
+            </h3>
+            <ul
+              class="Tipos-Violência"
+            >
+              <li>
+                - Humilhações
+              </li>
+              <li>
+                - Ameaças
+              </li>
+              <li>
+                - Chantagens
+              </li>
+              <li>
+                - Perseguições
+              </li>
+              <li>
+                - Controle de vida social
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>
+              VIOLÊNCIA SEXUAL:
+            </h3>
+            <ul
+              class="Tipos-Violência"
+            >
+              <li>
+                <strong />
+                - Sexo forçado
+              </li>
+              <li>
+                <strong />
+                - Sexo forçado com outras pessoas
+              </li>
+              <li>
+                <strong />
+                - Impedir o uso do método contraceptivo
+              </li>
+              <li>
+                <strong />
+                - Obrigar a ver pornografia
+              </li>
+              <li>
+                <strong />
+                - Sexo em troca de dinheiro ou bens
+              </li>
+              <li>
+                <strong />
+                - Forçar um aborto
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="ViolenceTips"
+        >
+          <div>
+            <h3>
+              VIOLÊNCIA MORAL:
+            </h3>
+            <ul
+              class="Tipos-Violência"
+            >
+              <li>
+                <strong />
+                - Xingamentos
+              </li>
+              <li>
+                <strong />
+                - Injurías
+              </li>
+              <li>
+                <strong />
+                - Calúnias
+              </li>
+              <li>
+                <strong />
+                - Difamações
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>
+              VIOLÊNCIA FÍSICA:
+            </h3>
+            <ul
+              class="Tipos-Violência"
+            >
+              <li>
+                <strong />
+                - Tapas
+              </li>
+              <li>
+                <strong />
+                - Chutes
+              </li>
+              <li>
+                <strong />
+                - Queimaduras
+              </li>
+              <li>
+                <strong />
+                - Torturas
+              </li>
+              <li>
+                <strong />
+                - Feminicídios
+              </li>
+              <li>
+                <strong />
+                - Socos
+              </li>
+              <li>
+                <strong />
+                - Empurrões
+              </li>
+              <li>
+                <strong />
+                - Apertar o pescoço
+              </li>
+              <li>
+                <strong />
+                - Agressões com armas e outros objetos
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="ViolenceTips"
+        >
+          <div>
+            <h3>
+              VIOLÊNCIA VIRTUAL:
+            </h3>
+            <ul
+              class="Tipos-Violência"
+            >
+              <li>
+                <strong />
+                - Divulgar/compartilhar fotos e vídeos intímos pela internet e/ ou redes sociais,
+                <br />
+                 sem autorização da mulher, com o propósito de humilhá-la ou chantageá-la.
+              </li>
+              <li>
+                <strong />
+                - Utilizar redes sociais e celulares para propagar comentários depreciativos em relação 
+                <br />
+                 à mulher.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>
+              VIOLÊNCIA PATRIMONIAL:
+            </h3>
+            <ul
+              class="Tipos-Violência"
+            >
+              <li>
+                <strong />
+                - Quebrar celulares e objetos pessoais
+              </li>
+              <li>
+                <strong />
+                - Rasgar fotos
+              </li>
+              <li>
+                <strong />
+                - Quebrar móveis
+              </li>
+              <li>
+                <strong />
+                - Rasgar roupas
+              </li>
+              <li>
+                <strong />
+                - Estragar objetos de trabalho
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a
+          class="linkto"
+          href="/Definition"
+        >
+          <button>
+            <h3>
+              O QUE É VIOLÊNCIA DOMÉSTICA?
+            </h3>
+          </button>
+        </a>
+        <p>
+          Acesse a página clicando no botão acima para mais infomações sobre violência doméstica!
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

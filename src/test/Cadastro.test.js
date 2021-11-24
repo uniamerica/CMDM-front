@@ -3,8 +3,6 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import '@testing-library/jest-dom'
 import Cadastro from '../pages/Cadastro'
-import Header from '../components/Header/Header'
-import { MemoryRouter } from 'react-router'
 
 describe("Cadastro Component", () => {
     test("should verify if the component had changes", () => {
