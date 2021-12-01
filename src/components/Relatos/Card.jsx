@@ -1,5 +1,5 @@
 import React from 'react'
-import './Card.css'
+import styles from './Card.module.css'
 import Popup from 'reactjs-popup'
 
 function Card(props){
@@ -8,27 +8,27 @@ function Card(props){
     var text = props.relato
     return(
         
-            <div className="card">
-                <div className="card-header">
+            <div className={styles.card}>
+                <div className={styles.card_header}>
                     <h2>{title}</h2>
                 </div>
-                <div className="card-body">
+                <div className={styles.card_body}>
                     <p>{description}</p>
                     <Popup
-                        trigger={<button className="popup-btn">Ler mais</button>}
+                        trigger={<button className={styles.popup_btn}>Ler mais</button>}
                         modal
                         nested
                     >
                         {close => (
-                            <div className="popup">
-                                <div className="header">
+                            <div className={styles.popup}>
+                                <div className={styles.header}>
                                     <h2>{title}</h2>
                                 </div>
-                                <div className="content">
+                                <div className={styles.content}>
                                     <p>{text}</p>
                                 </div>
-                                <div className="modal">
-                                    <button className="popup-btn" onClick={close}>Fechar</button>
+                                <div className={styles.modal}>
+                                    <button className={styles.popup_btn} onClick={close}>Fechar</button>
                                 </div>
                             </div>
                         )}
