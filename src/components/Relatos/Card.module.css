@@ -1,6 +1,6 @@
 
 .card{
-    min-width: 350px;
+    /* min-width: 350px; */
     border-style: solid;
     border-color: gainsboro;
     border-width: 1px;
@@ -8,7 +8,9 @@
     margin-bottom: 30px;
 }
 
-.card-header{
+.card_header{
+    padding: 0px 15px;
+    color: #3d2963;
     background-color: rgba(0,0,0,.009);
     border-bottom: solid;
     border-width: 1px;
@@ -18,12 +20,10 @@
 .card-header h2{
     font-size: 15px;
     font-family: Roboto, sans-serif;
-    margin: 0%;
-    padding: 12px;
-    font-weight: 100;
+    color: gray;
 }
 
-.card-body{
+.card_body{
     margin: 0% 1%;
     padding: 12px;
     background: white;
@@ -37,7 +37,7 @@
     height: 50px;
 }
 
-.popup-btn{
+.popup_btn{
     background-color: #3d2963;
     padding: 6px 10px;
     font-family: Roboto, sans-serif;

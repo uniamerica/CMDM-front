@@ -3,7 +3,7 @@ import Card from './Card'
 import api from '../../api/api'
 import { Component } from 'react'
 
-import './Cards.css'
+import styles from './Cards.module.css'
 
 class Cards extends Component {
 
@@ -26,13 +26,11 @@ class Cards extends Component {
         const { relatos } = this.state
         
         return (
-            <div className="container">
+            <div className={styles.container}>
 
-                <div className="cards-container">
-                    {relatos.map((e) => (
-                        <Card key={e.id} text={e.title} phase={e.description} relato={e.depoiment}/>
-                    ))}
-                </div>
+                {relatos.map((e) => (
+                    <Card key={e.id} text={e.title} phase={e.description} relato={e.depoiment}/>
+                ))}
             </div>
         );
     }
