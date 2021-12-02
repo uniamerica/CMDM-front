@@ -30,8 +30,9 @@ form {
 }
 
 .formField input {
-    width: 90%;
+    width: 100%;
     margin-top: 5px;
+    margin-left: 0px;
     border-radius: 8px;
 }
 
@@ -41,3 +42,4 @@ form {
     font-size: 16px;
     padding: 15px;
 }
+
