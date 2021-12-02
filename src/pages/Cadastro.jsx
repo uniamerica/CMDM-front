@@ -49,7 +49,7 @@ export default function Cadstro() {
 
     return (
         <>
-            {/* <Header /> */}
+            <Header />
             <div className={styles.formCadastro}>
                 <form onSubmit={handleSubmit}>
                     <div className={styles.formField}>
