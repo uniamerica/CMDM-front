@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header/Header'
 import Titulo from '../components/Relatos/Titulo'
-import { useState } from 'react'
-import '../components/Relatar/Relatar.css'
+import styles from '../styles/Relatar.module.css'
 
 import api from '../api/api'
 
@@ -49,25 +48,25 @@ function Relatar(){
             por meio de seu relato, outras mulheres se intiguem a procurar ajuda para sair dessa situação.
             Seu relato pode ser publicado anonimante, seu colocar sua identidade em risco."/>
             <form onSubmit={handleSubmit}>
-                <div className="relatar-page">
-                    <div className="form-relato">
-                        <label className="form-nome inpt">
+                <div className={styles.relatarPage}>
+                    <div className={styles.form-relato}>
+                        <label className={`${styles.formNome} ${styles.inpt}`}>
                             Titulo:
                             <input id="titulo" type="text" onChange={handleChangeTitulo} value={titulo}/>
                         </label>
-                        <label className="form-email inpt">
+                        <label className={`${styles.formEmail} ${styles.inpt}`}>
                             Descrição:
                             <input id="descricao" type="text" onChange={handleChangeDescricao} value={descricao}/>
                         </label>
-                        <label className="form-relatar">
+                        <label className={styles.formRelatar}>
                             Relato:
                             <textarea cols="96" rows="10" type="text" onChange={handleChangeRelato} value={relato}/>
                         </label>
-                        <div className="chbox-form">
+                        <div className={styles.chboxForm}>
                             <input type="checkbox"/>
                             <p>Publicar relato anonimamente (Se essa opção estiver marcada, seus dados pessoais não serão publicados junto ao relato).</p>
                         </div>
-                        <input id="sumbit" className="submit-btn" type="submit"/>
+                        <input id="sumbit" className={styles.submitBtn} type="submit"/>
                     </div>
                 </div>    
             </form>

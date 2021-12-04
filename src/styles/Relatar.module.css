@@ -1,31 +1,31 @@
-.relatar-page{
+.relatarPage{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.form-relato{
+.formRelato{
     width: 50%;
 }
 
-.form-relato input{
+.formRelato input{
     color: black;
     border-radius: 5;
     margin-bottom: 10px;
 }
 
-.form-relatar textarea{
+.formRelatar textarea{
     width: 100%;
 }
 
-.dados-pessoais{
+.dadosPessoais{
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.8cm;
 }
 
-.form-email{
+.formEmail{
     width: 60%;
 }
 
@@ -33,19 +33,19 @@
     height: 20px;
 }
 
-.chbox-form{
+.chboxForm{
     display: flex;
 }
 
-.chbox-form input{
+.chboxForm input{
     margin-top: 20px;
     margin-right: 10px;
 }
 
-.chbox-form p{
+.chboxForm p{
     color: #9088f2
 }
 
-.table-json{
+.tableJson{
     margin-top: 10%;
 }
