@@ -47,23 +47,23 @@ function Relatar(){
             <Titulo titulo="COMPARTILHE SUA EXPERIÊNCIA" text="Compartilhe sua experiência para que,
             por meio de seu relato, outras mulheres se intiguem a procurar ajuda para sair dessa situação.
             Seu relato pode ser publicado anonimante, seu colocar sua identidade em risco."/>
-            <form onSubmit={handleSubmit}>
-                <div className={styles.relatarPage}>
-                    <div className={styles.form-relato}>
-                        <label className={`${styles.formNome} ${styles.inpt}`}>
+            <form onSubmit={handleSubmit} className={styles.formRelatar}>
+                <div >
+                    <div >
+                        <label >
                             Titulo:
-                            <input id="titulo" type="text" onChange={handleChangeTitulo} value={titulo}/>
+                            <input className={styles.inputRelatar} id="titulo" type="text" onChange={handleChangeTitulo} value={titulo}/>
                         </label>
-                        <label className={`${styles.formEmail} ${styles.inpt}`}>
+                        <label >
                             Descrição:
-                            <input id="descricao" type="text" onChange={handleChangeDescricao} value={descricao}/>
+                            <input className={styles.inputRelatar} id="descricao" type="text" onChange={handleChangeDescricao} value={descricao}/>
                         </label>
                         <label className={styles.formRelatar}>
                             Relato:
-                            <textarea cols="96" rows="10" type="text" onChange={handleChangeRelato} value={relato}/>
+                            <textarea cols="96" rows="10" type="text" className={styles.textarea} onChange={handleChangeRelato} value={relato}/>
                         </label>
                         <div className={styles.chboxForm}>
-                            <input type="checkbox"/>
+                            <input className={styles.inputRelatar} type="checkbox"/>
                             <p>Publicar relato anonimamente (Se essa opção estiver marcada, seus dados pessoais não serão publicados junto ao relato).</p>
                         </div>
                         <input id="sumbit" className={styles.submitBtn} type="submit"/>
