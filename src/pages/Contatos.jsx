@@ -36,14 +36,7 @@ export default function Contatos() {
         
     
         function handleSubmit(event) {
-            axios.post('http://localhost:8080/mail', newContato)
-            .then(response =>{
-                if(response.data != null){
-                    console.log("Enviado");
-                }else 
-                console.log("Não enviado ne");
-            })
-            
+            api.post('https://localhost:8080/mail', newContato);
         }
     
 return (
@@ -62,24 +55,24 @@ return (
                             
                             <div className={styles.form1}>
                                 <label className={styles.labelContato} for="name">Nome</label>
-                                <input type="text" name="name" placeholder="Maria da Silva" value={newContato.name} onChange={handleChangeNome}/>
+                                <input classname={styles.inputText} type="text" name="name" data-testid="nameInput" placeholder="Maria da Silva" value={newContato.name} onChange={handleChangeNome}/>
                             </div>
                             <div className={styles.form1}>
                                 <label className={styles.labelContato} for="email" >E-mail</label>
-                                <input type="email" name="email" placeholder="mariadasilva@email.com" value={newContato.email} onChange={handleChangeEmail}/>
+                                <input classname={styles.inputEmail} type="email" name="email" data-testid="emailInput" placeholder="mariadasilva@email.com" value={newContato.email} onChange={handleChangeEmail}/>
                             </div>
                         </div>
                         <br/>
                         <div  className={styles.form2Margem}>
                             <div className={styles.form2}>
                                 <label className={styles.labelContato} for="subject">Assunto</label>
-                                <input type="text" name="subject" placeholder="Assunto" value={newContato.subject} onChange={handleChangeSubject}/>
+                                <input classname={styles.inputText} type="text" name="subject"  data-testid="subjectInput" placeholder="Assunto" value={newContato.subject} onChange={handleChangeSubject}/>
                             </div>                            
                         </div>
                         <div  className={styles.form2Margem}>
                             <div className={styles.form2}>
                                 <label className={styles.labelContato} for="message">Mensagem</label>
-                                <input className={styles.mensagem} placeholder="Sua mensagem" type="text" name="message" value={newContato.message} onChange={handleChangeMessage} rows="2"/>
+                                <input classname={styles.inputText} className={styles.mensagem} data-testid="messageInput" placeholder="Sua mensagem" type="text" name="message" value={newContato.message} onChange={handleChangeMessage} rows="2"/>
                             </div>
                         </div>
                         
@@ -87,9 +80,9 @@ return (
                             
                             <div className={styles.formCheck}>
                                 <Checkbox className={styles.check}/>
-                                <label className={styles.check} for="checkbox">Aceito publicar meu depoimento</label>
+                                <label classname={styles.label} className={styles.check} for="checkbox">Aceito publicar meu depoimento</label>
                             </div>
-                            <input type="submit" value="Enviar "/>
+                            <input classname={styles.inputSubmit} type="submit" value="Enviar "/>
                         </div>
                        
                     </form>
