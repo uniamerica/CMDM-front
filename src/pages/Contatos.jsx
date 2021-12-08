@@ -6,6 +6,8 @@ import Titulo from '../components/Relatos/Titulo';
 import api from '../api/api';
 import axios from 'axios';
 import styles from '../styles/Contatos.modules.css';
+import emailjs from'emailjs-com';
+
 
 export default function Contatos() {
         const [newContato, setNewContato] = useState({})
@@ -36,7 +38,18 @@ export default function Contatos() {
         
     
         function handleSubmit(event) {
-            api.post('https://localhost:8080/mail', newContato);
+            const USER_ID = 'user_R6Fr3hkp10QVd9Hyrl9OP';
+            const TEMPLATE_ID= 'template_bjcd15r';
+            const SERVICE_ID= 'cmdmProjeto';
+            event.preventDefault(); 
+            emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, event.target, USER_ID)
+            .then((result) => {
+                alert("Mensagem enviada a Central CMDM!", result.text);
+                window.location.reload();
+            },
+            (error) => {
+                alert("ERRO! ", error.text);
+            });
         }
     
 return (

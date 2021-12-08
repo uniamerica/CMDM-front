@@ -4424,7 +4424,7 @@ dom-helpers@^5.0.1:
   integrity sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==
   dependencies:
     "@babel/runtime" "^7.8.7"
-    csstype "^3.0.2"
+    "csstype" "^3.0.2"
 
 dom-serializer@0:
   version "0.2.2"
