@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header/Header'
 import Titulo from '../components/Relatos/Titulo'
-import { useState } from 'react'
-import '../components/Relatar/Relatar.css'
+import styles from '../styles/Relatar.module.css'
 
 import api from '../api/api'
 
@@ -48,27 +47,25 @@ function Relatar(){
             <Titulo titulo="COMPARTILHE SUA EXPERIÊNCIA" text="Compartilhe sua experiência para que,
             por meio de seu relato, outras mulheres se intiguem a procurar ajuda para sair dessa situação.
             Seu relato pode ser publicado anonimante, seu colocar sua identidade em risco."/>
-            <form onSubmit={handleSubmit}>
-                <div className="relatar-page">
-                    <div className="form-relato">
-                        <label className="form-nome inpt">
-                            Titulo:
-                            <input id="titulo" type="text" onChange={handleChangeTitulo} value={titulo}/>
-                        </label>
-                        <label className="form-email inpt">
-                            Descrição:
-                            <input id="descricao" type="text" onChange={handleChangeDescricao} value={descricao}/>
-                        </label>
-                        <label className="form-relatar">
-                            Relato:
-                            <textarea cols="96" rows="10" type="text" onChange={handleChangeRelato} value={relato}/>
-                        </label>
-                        <div className="chbox-form">
-                            <input type="checkbox"/>
-                            <p>Publicar relato anonimamente (Se essa opção estiver marcada, seus dados pessoais não serão publicados junto ao relato).</p>
-                        </div>
-                        <input id="sumbit" className="submit-btn" type="submit"/>
+            <form onSubmit={handleSubmit} className={styles.formRelatar}>
+                <div  className={styles.flex}>
+                    <label >
+                        Titulo:
+                        <input className={styles.inputRelatar} id="titulo" type="text" onChange={handleChangeTitulo} value={titulo}/>
+                    </label>
+                    <label >
+                        Descrição:
+                        <input className={styles.inputRelatar} id="descricao" type="text" onChange={handleChangeDescricao} value={descricao}/>
+                    </label>
+                    <label >
+                        Relato:
+                        <textarea cols="96" rows="10" type="text" className={styles.textarea} onChange={handleChangeRelato} value={relato}/>
+                    </label>
+                    <div className={styles.chboxForm}>
+                        <input className={styles.inputRelatar} type="checkbox"/>
+                        <p>Publicar relato anonimamente (Se essa opção estiver marcada, seus dados pessoais não serão publicados junto ao relato).</p>
                     </div>
+                    <input id="sumbit" className={styles.submitBtn} type="submit"/>
                 </div>    
             </form>
 

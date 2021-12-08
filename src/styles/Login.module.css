@@ -1,45 +1,25 @@
-button:hover {
+.opacity:hover {
     opacity: 0.8;
 }
 
-input[type=text], input[type=password] {
-    width: 75%;
-    padding: 12px 20px;
-    margin-left: 10%;
-    margin-top: 2%;
-    margin-bottom: 5%;
+.inputLogin {
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    width: 75% !important;
+    padding: 12px 20px !important;
+    margin-top: 4%;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
 
+.containerLogin{
+    padding-bottom: 5em;
 }
-input[type=password] {
-    border-radius: 20px;
-    background-color: #f8f8f8;
 
+.formLogin{
+    margin:auto;
 }
-.login{
-    align-content: center;
-}
-.login2{
-    width: 50%;
-    margin-left: 25%;
-
-}
-button {
-    background-color: #3D2963;
-    color: white;
-    padding: 14px 20px;
-    margin-top: 5%;
-    margin-right:20%;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-    width: 50%;
-    margin-left: 25%;
-    margin-bottom: 10%;
-}
-span.psw {
-    float: right;
-    margin-right: 5%;
+.link{
+    text-decoration: none;
 }
