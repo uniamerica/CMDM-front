@@ -6,7 +6,7 @@ import Titulo from '../components/Relatos/Titulo';
 import api from '../api/api';
 import axios from 'axios';
 import styles from '../styles/Contatos.modules.css';
-import emailjs from'emailjs-com';
+import emailjs from 'emailjs-com';
 
 
 export default function Contatos() {
