@@ -7,7 +7,6 @@ import styles from '../styles/Login.module.css'
 
 import { Context } from  '../Context/AuthContext'
 import Home from "./Home";
-
 export default function Login() {
   
   const { authenticated, handleLogin } = useContext(Context)
@@ -33,13 +32,13 @@ export default function Login() {
   };
 
   return (
-    <div className={styles.login}>
+    <div>
       <Header />
       <center>
         <Titulo titulo="Login" />
       </center>
-      <div className={styles.login2}>
-        <form method="post" onSubmit={handleSubmit}>
+      <div className={styles.containerLogin}>
+        <form method="post" onSubmit={handleSubmit} className={styles.formLogin}>
           <input
             id="username"
             className={styles.inputLogin}
@@ -47,7 +46,7 @@ export default function Login() {
             name="username"
             type="text"
             data-testid="usernameInput"
-            placeholder="usuario"
+            placeholder="Digite seu Usuario"
             required
           />
           <input
@@ -57,12 +56,14 @@ export default function Login() {
             type="password"
             name="password"
             data-testid="passwordInput"
-            placeholder="senha"
+            placeholder="Digite sua Senha"
             required
           />
           <br />
-          <span className={styles.psw}><Link  to={Home}>Esqueci minha senha</Link></span>
-          <button type="submit" data-testid='submit'>Login</button>
+          <span><Link  to="/cadastro" className={`${styles.link} ${styles.opacity}`}>Criar Nova Conta</Link></span>
+          
+          <span><Link  to={Home} className={`${styles.link} ${styles.opacity}`}>Esqueci minha senha</Link></span>
+          <button type="submit" data-testid='submit' className={styles.opacity}>Login</button>
         </form>
       </div>
     </div>
