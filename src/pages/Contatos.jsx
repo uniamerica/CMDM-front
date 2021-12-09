@@ -59,10 +59,10 @@ return (
             <div className={styles.ajusteTitulo}><Titulo titulo="CONTATO" text="Você tem alguma pergunta? Por favor, não hesite em nos contatar diretamente.
             Não se preocupe seus dados não serão divulgados junto com o seu depoimento. Envie seu depoimento."/></div>
             
-            <div className={styles.principal}>
-                <div className={styles.containerContato}>
+            <div  className={styles.formContato}>
+                <div >
                     
-                    <form onSubmit={handleSubmit}  className="formContato">
+                    <form onSubmit={handleSubmit}>
                         
                         <div className={styles.formulario}>
                             
@@ -134,3 +134,48 @@ return (
 );
 
 }
+/*button:hover {
+    opacity: 0.8;
+}
+
+input[type=text], input[type=password] {
+    width: 75%;
+    padding: 12px 20px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+input[type=password] {
+    border-radius: 20px;
+    background-color: #f8f8f8;
+
+}
+.login{
+    align-content: center;
+}
+.login2{
+    width: 50%;
+    margin-left: 25%;
+
+}
+button {
+    background-color: #3D2963;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 5%;
+    margin-right:20%;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
+span.psw {
+    float: right;
+    margin-right: 5%;
+}*/
