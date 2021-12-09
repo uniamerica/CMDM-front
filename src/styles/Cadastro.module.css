@@ -27,13 +27,16 @@ form {
 
 .formField label {
     font-size: 18px;
+    color: #413780;
 }
 
 .formField input {
-    width: 100%;
+    width: calc(100% - 30px);
     margin-top: 5px;
     margin-left: 0px;
-    border-radius: 8px;
+    border-radius: 20px;
+    padding: 12px 15px;
+    border: 1px solid #413780;
 }
 
 .submit {
