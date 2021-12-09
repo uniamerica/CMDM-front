@@ -41,6 +41,7 @@ i {
   width: 100%;
   font-size: 15px;
   color: #601e60;
+  font-size: 18px;
 }
 .formulario {
   width: 100%;
@@ -68,7 +69,10 @@ i {
   font-family: sans-serif;
 }
 .form1 {
-  width: 50%;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 0px;
+  border-radius: 8px;
 }
 
 .form2Margem {
@@ -100,7 +104,7 @@ i {
   font-size: 18px;
 }
 
-.inputText input {
+.inputText {
   width: 100%;
   margin-top: 5px;
   margin-left: 0px;

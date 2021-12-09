@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header/Header';
 import Titulo from '../components/Relatos/Titulo';
-import '../styles/RecSenha.css';
+import styles from '../styles/RecSenha.module.css';
 
 function Login(){
     return(
@@ -13,7 +13,7 @@ function Login(){
                     <input name="usuario" type="email" placeholder="email@email.com" required/>
                     <br/>
                     <span className="span"><i> *Um email com sua nova senha será enviado</i></span>
-                    <button type="submit">Enviar</button>
+                    <input className={styles.InputRec} type="submit">Enviar</input>
                 </form>
             </div>
 
