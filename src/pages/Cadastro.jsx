@@ -45,6 +45,8 @@ export default function Cadstro() {
 
     function handleSubmit(event) {
         api.post('/users', newUser)
+
+        event.preventDefault()
     }
 
     return (

@@ -60,9 +60,9 @@ export default function Login() {
             required
           />
           <br />
-          <span><Link  to="/cadastro" className={`${styles.link} ${styles.opacity}`}>Criar Nova Conta</Link></span>
+          <Link  to="/cadastro" className={`${styles.link} ${styles.opacity}`}>Criar Nova Conta</Link>
           
-          <span><Link  to={Home} className={`${styles.link} ${styles.opacity}`}>Esqueci minha senha</Link></span>
+          <Link  to={Home} className={`${styles.link} ${styles.opacity}`}>Esqueci minha senha</Link>
           <button type="submit" data-testid='submit' className={styles.opacity}>Login</button>
         </form>
       </div>
