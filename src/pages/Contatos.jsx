@@ -3,8 +3,11 @@ import Header from '../components/Header/Header.jsx';
 import '../../node_modules/font-awesome/css/font-awesome.min.css'; 
 import Checkbox from '../components/Checkbox/checkbox.js';
 import Titulo from '../components/Relatos/Titulo';
-import styles from '../styles/Contatos.modules.css';
-import emailjs from 'emailjs-com';
+import api from '../api/api';
+import axios from 'axios';
+import styles from '../styles/Contatos.module.css';
+import emailjs from'emailjs-com';
+
 
 
 export default function Contatos() {
@@ -57,10 +60,10 @@ return (
             <div className={styles.ajusteTitulo}><Titulo titulo="CONTATO" text="Você tem alguma pergunta? Por favor, não hesite em nos contatar diretamente.
             Não se preocupe seus dados não serão divulgados junto com o seu depoimento. Envie seu depoimento."/></div>
             
-            <div className={styles.principal}>
-                <div className={styles.containerContato}>
+            <div  className={styles.formContato}>
+                <div >
                     
-                    <form onSubmit={handleSubmit}  className="formContato">
+                    <form onSubmit={handleSubmit}>
                         
                         <div className={styles.formulario}>
                             
