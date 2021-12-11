@@ -22,10 +22,7 @@ function Relatar(){
             // pendente: true
         }
 
-        api.post('/reports', novoRelato)
-
-        e.preventDefault()
-        
+        api.post('/reports', novoRelato)        
     } 
 
     const handleChangeTitulo = (e) => {
