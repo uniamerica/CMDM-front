@@ -54,82 +54,43 @@ export default function Contatos() {
         }
     
 return (
-    <div >
+    <div className={styles.container}>
         <Header/>
-
-            <div className={styles.ajusteTitulo}><Titulo titulo="CONTATO" text="Você tem alguma pergunta? Por favor, não hesite em nos contatar diretamente.
-            Não se preocupe seus dados não serão divulgados junto com o seu depoimento. Envie seu depoimento."/></div>
+        <Titulo titulo="CONTATO" text="Você tem alguma pergunta? Por favor, não hesite em nos contatar diretamente.
+        Não se preocupe seus dados não serão divulgados junto com o seu depoimento. Envie seu depoimento."/>
             
-            <div  className={styles.formContato}>
-                <div >
+            <form onSubmit={handleSubmit}>
+            
+                <div className={styles.formulario}>
                     
-                    <form onSubmit={handleSubmit}>
-                        
-                        <div className={styles.formulario}>
-                            
-                            <div className={styles.form1}>
-                                <label className={styles.labelContato} for="name">Nome</label>
-                                <input classname={styles.inputText} type="text" name="name" data-testid="nameInput" placeholder="Maria da Silva" value={newContato.name} onChange={handleChangeNome}/>
-                            </div>
-                            <div className={styles.form1}>
-                                <label className={styles.labelContato} for="email" >E-mail</label>
-                                <input classname={styles.inputEmail} type="email" name="email" data-testid="emailInput" placeholder="mariadasilva@email.com" value={newContato.email} onChange={handleChangeEmail}/>
-                            </div>
-                        </div>
-                        <br/>
-                        <div  className={styles.form2Margem}>
-                            <div className={styles.form2}>
-                                <label className={styles.labelContato} for="subject">Assunto</label>
-                                <input classname={styles.inputText} type="text" name="subject"  data-testid="subjectInput" placeholder="Assunto" value={newContato.subject} onChange={handleChangeSubject}/>
-                            </div>                            
-                        </div>
-                        <div  className={styles.form2Margem}>
-                            <div className={styles.form2}>
-                                <label className={styles.labelContato} for="message">Mensagem</label>
-                                <input classname={styles.inputText} className={styles.mensagem} data-testid="messageInput" placeholder="Sua mensagem" type="text" name="message" value={newContato.message} onChange={handleChangeMessage} rows="2"/>
-                            </div>
-                        </div>
-                        
-                        <div>
-                            
-                            <div className={styles.formCheck}>
-                                <Checkbox className={styles.check}/>
-                                <label classname={styles.label} className={styles.check} for="checkbox">Aceito publicar meu depoimento</label>
-                            </div>
-                            <input classname={styles.inputSubmit} type="submit" value="Enviar "/>
-                        </div>
-                       
-                    </form>
-                
+                    <div className={styles.form1}>
+                        <label className={styles.labelContato} for="name">Nome</label>
+                        <input type="text" name="name" data-testid="nameInput" placeholder="Maria da Silva" value={newContato.name} onChange={handleChangeNome}/>
+                    </div>
+                    <div className={styles.form1}>
+                        <label className={styles.labelContato} for="email" >E-mail</label>
+                        <input type="email" name="email" data-testid="emailInput" placeholder="mariadasilva@email.com" value={newContato.email} onChange={handleChangeEmail}/>
+                    </div>
+                    <div className={styles.form1}>
+                        <label className={styles.labelContato} for="subject">Assunto</label>
+                        <input type="text" name="subject"  data-testid="subjectInput" placeholder="Assunto" value={newContato.subject} onChange={handleChangeSubject}/>
+                    </div>                            
+                    <div className={styles.form1}>
+                        <label className={styles.labelContato} for="message">Mensagem</label>
+                        <input className={styles.mensagem} data-testid="messageInput" placeholder="Sua mensagem" type="text" name="message" value={newContato.message} onChange={handleChangeMessage} rows="2"/>
+                    </div>
+
                 </div>
                 
-        </div>
-        <div className={styles.telefones}>
-                    <ul className={styles.ulContato}>
-                        <li>                       
-                            <i className="fa fa-phone"></i>   
-                            <p> CRAS NORTE    – (45) 3901-3268 </p>
-                        </li>
-                        <li>
-                            <i className="fa fa-phone"> </i>
-                            <p>CRAS NORDESTE – (45) 3901-3271</p>
-                        </li>
-                        <li>
-                            <i className="fa fa-phone"></i>
-                            <p> CRAS LESTE    – (45) 3901-3273  </p>
-                                                      
-                        </li>
-                        <li>
-                            <i className="fa fa-phone"></i> 
-                            <p>CRAS OESTE    – (45) 3527-7206</p>
-                                                       
-                        </li>
-                        <li>
-                            <i className="fa fa-phone"> </i>
-                            <p>CRAS SUL      – (45) 3901-3260</p>
-                        </li>
-                    </ul>
+                <div className={styles.formCheck}>
+                    <Checkbox className={styles.check}/>
+                    <label classname={styles.label} className={styles.check} for="checkbox">Aceito publicar meu depoimento</label>
                 </div>
+
+                <button className={styles.buttonSubmit} type='submit'>Enviar</button>
+            
+            </form>                    
+        
     </div>
     
 );
