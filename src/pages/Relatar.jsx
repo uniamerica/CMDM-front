@@ -23,6 +23,8 @@ function Relatar(){
         }
 
         api.post('/reports', novoRelato)        
+
+        e.preventDefault()
     } 
 
     const handleChangeTitulo = (e) => {
